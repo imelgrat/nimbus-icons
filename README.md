@@ -13,7 +13,7 @@ yarn
 
 ## How to use
 ```javascript
-import { CloudIcon } from "@tiendanube/icons/";
+import { CloudIcon } from "@tiendanube/icons";
 
 <CloudIcon />
 ```
