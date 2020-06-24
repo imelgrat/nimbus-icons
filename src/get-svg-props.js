@@ -8,10 +8,9 @@ const sizeMap = {
 export default function getSvgProps({
   "aria-label": ariaLabel,
   size,
-  verticalAlign,
   svgDataByHeight,
 }) {
-  const height = sizeMap[size] || size;
+  const height = sizeMap[size] || parseInt(size) || 0;
   const naturalHeight = closestNaturalHeight(
     Object.keys(svgDataByHeight),
     height
@@ -33,7 +32,7 @@ export default function getSvgProps({
     style: {
       display: "inline-block",
       userSelect: "none",
-      verticalAlign,
+      verticalAlign: "middle",
     },
     dangerouslySetInnerHTML: { __html: path },
   };

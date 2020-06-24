@@ -22,8 +22,7 @@ const icons = Object.entries(iconsData)
 }
 
 ${name}.defaultProps = {
-  size: 'small',
-  verticalAlign: 'text-bottom'
+  size: 'small'
 }
 `;
 
@@ -63,7 +62,6 @@ type Size = 'small' | 'medium' | 'large'
 interface IconProps {
   'aria-label'?: string
   size?: number | Size
-  verticalAlign?: 'middle' | 'text-bottom' | 'text-top' | 'top' | 'unset'
 }
 
 type Icon = React.FC<IconProps>
