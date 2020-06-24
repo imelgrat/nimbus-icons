@@ -22,7 +22,7 @@ const icons = Object.entries(iconsData)
 }
 
 ${name}.defaultProps = {
-  size: 'fixed',
+  size: 'small',
   verticalAlign: 'text-bottom'
 }
 `;
