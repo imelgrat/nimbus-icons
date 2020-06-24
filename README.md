@@ -13,9 +13,15 @@ yarn
 
 ## How to use
 ```javascript
-import { CloudIcon } from "@tiendanube/icons";
+import { CloudIcon, AlertIcon, StoreIcons } from "@tiendanube/icons";
 
 <CloudIcon />
+
+<AlertIcon size="large" />
+
+<StoreIcons size="medium" aria-label="Store" />
+
+
 ```
 
 ### Properties 
@@ -23,11 +29,4 @@ aria-label (opcional)
 string 
 
 size (opcional)
-number | 'small' | 'medium' | 'large' | 'fixed' default
-
-verticalAlign (opcional)
-'middle' | 'text-bottom' | 'text-top' | 'top' | 'unset' 
-
-```javascript
-<CloudIcon aria-label="Tiendanube" size="large" verticalAlign="middle" />
-```
+number | 'small' (default) | 'medium' | 'large' | 'fixed'
