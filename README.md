@@ -19,8 +19,7 @@ import { CloudIcon, AlertIcon, StoreIcons } from "@tiendanube/icons";
 
 <AlertIcon size="large" />
 
-<StoreIcons size="medium" aria-label="Store" />
-
+<StoreIcon size="medium" aria-label="Store" />
 
 ```
 
