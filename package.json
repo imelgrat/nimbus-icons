@@ -7,7 +7,7 @@
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\"",
     "build": "yarn flush && yarn build:json && yarn build:react",
     "flush": "rm -rf dist",
     "build:react": "script/build_react.js && script/types.js && npm run rollup",
