@@ -136,7 +136,6 @@ const iconsByName = icons.reduce(
     merge(acc, {
       [icon.name]: {
         name: icon.name,
-        keywords: icon.keywords,
         heights: {
           [icon.height]: {
             width: icon.width,
