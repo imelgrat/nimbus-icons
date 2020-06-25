@@ -15,6 +15,9 @@
     "rollup": "rollup -c",
     "svgo": "svgo icons --config .svgo.yml"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TiendaNube/nimbus-icons.git"
