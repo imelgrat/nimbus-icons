@@ -44,15 +44,15 @@ let exitCode = 0;
 const icons = svgFilepaths.map((filepath) => {
   try {
     const filename = path.parse(filepath).base;
-    const filenamePattern = /(.+)-([0-9]+).svg$/;
+    const filenamePattern = /(.+).svg$/;
 
     if (!filenamePattern.test(filename)) {
       throw new Error(
-        `${filename}: Invalid filename. Please append the height of the SVG to the end of the filename (e.g. alert-16.svg).`
+        `${filename}: Invalid filename. Please use kebab case (e.g. exclamation-circle.svg).`
       );
     }
 
-    const [, name, height] = filename.match(filenamePattern);
+    const [, name] = filename.match(filenamePattern);
     const svg = fs.readFileSync(path.resolve(filepath), "utf8");
     const svgElement = cheerio.load(svg)("svg");
     const svgViewBox = svgElement.attr("viewBox");
@@ -77,12 +77,6 @@ const icons = svgFilepaths.map((filepath) => {
 
     if (!svgViewBox) {
       throw new Error(`${filename}: Missing viewBox attribute.`);
-    }
-
-    if (svgHeight !== parseInt(height)) {
-      throw new Error(
-        `${filename}: Height in filename does not match height attribute of SVG`
-      );
     }
 
     const viewBoxPattern = /0 0 ([0-9]+) ([0-9]+)/;
