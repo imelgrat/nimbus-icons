@@ -1,7 +1,7 @@
 const sizeMap = {
   small: 16,
-  medium: 32,
-  large: 64,
+  medium: 24,
+  large: 32,
   fixed: "1em",
 };
 
