@@ -31,4 +31,4 @@ Do you want to contribute? **Excellent!** You have two ways to do it.
 
 Copyright 2020 Linkedstore S.A.
 
-Code License: [MIT](LICENSE) Applies to all other files
+Code License: [MIT](LICENSE) Applies to all other files 
