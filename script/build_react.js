@@ -15,20 +15,22 @@ function pascalCase(str) {
 
 const icons = Object.entries(iconsData)
   .map(([key, icon]) => {
-    const name = `${pascalCase(key)}Icon`;
-    const code = `function ${name}(props) {
+    const name = pascalCase(key);
+    const iconName = `${name}Icon`;
+    const code = `function ${iconName}(props) {
   const svgDataByHeight = ${JSON.stringify(icon.heights)}
-  return <svg {...getSvgProps({...props, svgDataByHeight})} />
+  const name = '${name}';
+  return <svg {...getSvgProps({...props, svgDataByHeight, name })} />
 }
 
-${name}.defaultProps = {
+${iconName}.defaultProps = {
   size: 'small'
 }
 `;
 
     return {
       key,
-      name,
+      iconName,
       icon,
       code,
     };
@@ -44,7 +46,7 @@ import getSvgProps from '../get-svg-props'
 ${icons.map(({ code }) => code).join("\n")}
 
 export {
-  ${icons.map(({ name }) => name).join(",\n  ")}
+  ${icons.map(({ iconName }) => iconName).join(",\n  ")}
 }`;
   return fse.writeFile(file, code, "utf8").then(() => {
     console.warn("wrote %s with %d exports", file, count);
@@ -66,12 +68,12 @@ interface IconProps {
 
 type Icon = React.FC<IconProps>
 
-${icons.map(({ name }) => `declare const ${name}: Icon`).join("\n")}
+${icons.map(({ iconName }) => `declare const ${iconName}: Icon`).join("\n")}
 
 export {
   Icon,
   IconProps,
-  ${icons.map(({ name }) => name).join(",\n  ")}
+  ${icons.map(({ iconName }) => iconName).join(",\n  ")}
 }`;
   return fse.writeFile(file, code, "utf8").then(() => {
     console.warn("wrote %s with %d exports", file, count);

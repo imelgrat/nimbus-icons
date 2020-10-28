@@ -6,6 +6,7 @@ const sizeMap = {
 };
 
 export default function getSvgProps({
+  name,
   "aria-label": ariaLabel,
   size,
   svgDataByHeight,
@@ -23,7 +24,7 @@ export default function getSvgProps({
 
   return {
     "aria-hidden": ariaLabel ? "false" : "true",
-    "aria-label": ariaLabel,
+    "aria-label": ariaLabel || name,
     role: "img",
     viewBox: `0 0 ${naturalWidth} ${naturalHeight}`,
     width,
