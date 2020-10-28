@@ -13,7 +13,7 @@ You can also use them for react development, using `yarn` to install.
 
 ### Example
 ```javascript
-import { CloudIcon, AlertIcon, StoreIcons } from "@tiendanube/icons";
+import { CloudIcon, AlertIcon, StoreIcon } from "@tiendanube/icons";
 
 <CloudIcon />
 <AlertIcon size="large" />
