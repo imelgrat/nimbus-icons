@@ -1,7 +1,7 @@
 ---
 name: Icon request
 about: Suggest an idea for new icon
-title: ''
+title: "[Icon request]"
 labels: ''
 assignees: ''
 
