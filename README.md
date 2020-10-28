@@ -22,8 +22,8 @@ import { CloudIcon, AlertIcon, StoreIcon } from "@tiendanube/icons";
 
 ## Contributing
 Do you want to contribute? **Excellent!** You have two ways to do it. 
-1. You can request a new icon through an [icon request](/TiendaNube/nimbus-icons/issues "Nimbus Icons - Icon request") or 
-2. Create and upload an icon following the instructions in our [contribution guide](/TiendaNube/nimbus-icons/.github/CONTRIBUTING "Nimbus Icons - Contributing").
+1. You can request a new icon through an [icon request](.github/ "Nimbus Icons - Icon request") or 
+2. Create and upload an icon following the instructions in our [contribution guide](.github/CONTRIBUTING.md "Nimbus Icons - Contributing").
 
 **Thanks for contributing! :heart:**
 
@@ -31,4 +31,4 @@ Do you want to contribute? **Excellent!** You have two ways to do it.
 
 Copyright 2020 Linkedstore S.A.
 
-Code License: [MIT](/TiendaNube/nimbus-icons/LICENSE) Applies to all other files
+Code License: [MIT](LICENSE) Applies to all other files
