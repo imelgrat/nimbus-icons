@@ -23,7 +23,7 @@ export default function getSvgProps({
   const path = svgDataByHeight[naturalHeight].path;
 
   return {
-    "aria-hidden": ariaLabel ? "false" : "true",
+    "aria-hidden": "true",
     "aria-label": ariaLabel || name,
     role: "img",
     viewBox: `0 0 ${naturalWidth} ${naturalHeight}`,
