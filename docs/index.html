@@ -1,116 +1,104 @@
-<div class={styles.container}>
-      <Head>
-        <title>Nimbus icons</title>
-        <link rel="icon" href="/nube-favicon.svg"/>
-      </Head>
-      <div class="container"> 
-        <div class="row mt-4"> 
-          <div class="col-10"> 
-              <img src="/nimbus-logo-white.svg" alt="Nimbus logo" class="logo"/>
-              <div class="hero justify-content-left"> 
-                <h1 class="hero-title mb-0">
-                  Nimbus <span class="text-primary text-outline">icons.</span>
-                </h1>
-                <p class="mt-0 mb-5">
-                  Íconos open-source para acelerar los diseños y desarrollos de todos los que quieran potenciar historias en Argentina. Locales, como el mate, flexibles, y gratuitos para que los uses donde quieras y como quieras.
-                </p>
-                <span>
-                  <a class="btn btn-primary mr-3" href="www.tiendanube.com">Descargar</a>
-                  <a class="btn btn-link" href="www.tiendanube.com">Contribuir</a>
-                </span> 
-              </div>
-              <div class="icon-gallery mt-5">
-                <div class="icon-gallery-wrapper">
-                  {IconGallery}
-              </div> 
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  <meta charset="utf-8" />
+  <title>Nimbus icons</title>
+  <link rel="icon" href="assets/images/nube-favicon.svg"/>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <link rel="stylesheet" href="assets/css/globals.css"/>
+  </head> 
+  <body>
+    <div class="container"> 
+      <div class="row mt-4"> 
+        <div class="col-10"> 
+            <img src="assets/images/nimbus-logo-white.svg" alt="Nimbus logo" class="logo"/>
+            <div class="hero justify-content-left"> 
+              <h1 class="hero-title mb-0">
+                Nimbus <span class="text-primary text-outline">icons.</span>
+              </h1>
+              <p class="mt-0 mb-5">
+                Íconos open-source para acelerar los diseños y desarrollos de las personas que buscan potenciar historias en Argentina.
+                <br>
+                Locales (como el mate), flexibles, y gratuitos para que los uses donde quieras y como quieras.
+              </p>
+              <span>
+                <a class="btn btn-primary mr-3" href="www.tiendanube.com">Descargar</a>
+                <a class="btn btn-link" href="www.tiendanube.com">Contribuir</a>
+              </span> 
             </div>
           </div>
         </div>
-        <div class="row"> 
-          <div class="col-md-4"> 
-            <h2>Enfocados en potenciar</h2>
-            <p>Queremos iconos que respondan a las necesidades de cada diseñador, programador, agencia o producto que esté trabajando en potenciar una marca o negocio de la región.</p>
-            <a class="btn-link" href="www.tiendanube.com">Enterate más acá</a>
-          </div>
-          <div class="col-md-4"> 
-            <h2>Son open-source</h2>
-            <p>Subí tus íconos o pedinos el que estás necesitando y lo diseñamos.  ¡O también podés diseñarlos vos y enviar una propuesta!</p>
-            <a class="btn-link" href="www.tiendanube.com">Sumate a nuestro repo en Github</a>
-          </div>
-          <div class="col-md-4"> 
-            <h2>Nube-perfect</h2>
-            <p>Nuestros iconos toman como base la morfología del símbolo de la marca y sus proporciones.</p>
-            <a class="btn-link" href="www.tiendanube.com">Mirá nuestra guía de estilo</a>
-          </div>
+      <div class="row mb-5 align-items-center"> 
+        <div class="col-md-4 m-0"> 
+          <h2 class="mb-1">Enfocados en potenciar</h2>
+          <p class="m-0 mb-2">Queremos íconos que respondan a las necesidades de quienes trabajan en diseñar, programar o crear un producto para potenciar marcas y negocios de la región.</p>
+          <a class="btn-link" href="www.tiendanube.com">Enterate más acá</a>
         </div>
 
-        <div class="row justify-content-center"> 
-          <div class="col-md-6"> 
-            
-          </div>
+        <div class="col-md-4 m-0"> 
+          <h2 class="mb-1">Son open-source</h2>
+          <p class="mt-0 mb-2">Sumá tus íconos o pedinos el que estás necesitando y lo diseñamos. ¡O también podés diseñarlos vos y enviar una propuesta!</p>
+          <a class="btn-link" href="www.tiendanube.com">Sumate a nuestro repo en Github</a> <a href="https://twitter.com/TiendaNube/">
+              <img src="icons/check.svg" class="svg-icon-primary"/>
+            </a>
+        </div>
+
+        <div class="col-md-4 m-0"> 
+          <h2 class="mb-1">Nube-perfect</h2>
+          <p class="mt-0 mb-2">Nuestros íconos toman como base la morfología del símbolo de la marca y sus proporciones.</p>
+          <a class="btn-link" href="www.tiendanube.com">Mirá nuestra guía de estilo</a>
         </div>
       </div>
 
-      <footer class="footer-bg p-5">
-
-        <div class="container">
-
-          <div class="row col-md-12 mt-3 mb-3">
-          <a href="https://www.tiendanube.com/">
-            <img src="/nimbus-logo.svg" alt="Nimbus Logo"/>
-          </a>
-          </div>
-
-          <div class="row font-bold text-secondary">
-
-            <ul class="font-s col-md-4">
-
-              <li class="pl-0"><a href="https://medium.com/tiendanube-design">Tiendanube Design</a></li>
-              
-              <li class="pl-0"><a href="https://www.tiendanube.com/ingenieria">Tiendanube Engineering</a></li>
-
-            </ul>
-
-            <ul class="font-s col-md-4">
-
-              <li class="pl-0"><a href="https://www.tiendanube.com/socios">Tiendanube Socios</a></li>
-           
-              <li class="pl-0"><a href="http://docs.tiendanube.com/">Documentación</a></li>
-
-            </ul>
-
-            <div class="col-md-4">
-              <h4 class="text-secondary mt-3">Seguinos</h4>
-
-              <a href="https://www.instagram.com/tiendanube/" class="social-media-logo">
-                <img src="/instagram.svg" class={styles.logo} />
-              </a>
-
-              <a href="https://www.youtube.com/tiendanube/" class="social-media-logo">
-                <img src="/youtube.svg" class={styles.logo} />
-              </a>
-
-              <a href="https://twitter.com/TiendaNube/" class="social-media-logo">
-                <img src="/twitter.svg" class={styles.logo} />
-              </a>
-
-              <a href="https://www.linkedin.com/company/tiendanube/" class="social-media-logo">
-                <img src="/linkedin.svg" class={styles.logo} />
-              </a>
-
-              <a href="https://www.facebook.com/TiendaNube/" class="social-media-logo">
-                <img src="/facebook.svg" class={styles.logo} />
-              </a>
-
-            </div>
-
-          </div>
-
-          <span class="row justify-content-center pt-4 font-xs text-secondary">
-            2007-2020 Tiendanube - Todos los derechos reservados. <a href="https://www.tiendanube.com/que-es-tienda-nube/terminos-de-uso" class="ml-1">Términos y condiciones.</a><a href="https://www.tiendanube.com/politicas-de-privacidad">Políticas de privacidad.</a><a href="https://www.tiendanube.com/politica-de-calidad"> Política de calidad.</a>
-          </span>
-
+      <div class="row justify-content-center"> 
+        <div class="col-md-6"> 
         </div>
-
-      </footer>
+      </div>
     </div>
+
+    <footer class="footer-bg p-5">
+      <div class="container">
+        <div class="row col-md-12 mt-3 mb-3">
+          <a href="https://www.tiendanube.com/">
+            <img src="assets/images/nimbus-logo.svg" alt="Nimbus Logo"/>
+          </a>
+        </div>
+        <div class="row font-bold text-secondary">
+          <ul class="font-s col-md-4">
+            <li class="pl-0"><a href="https://medium.com/tiendanube-design">Tiendanube Design</a></li>
+            <li class="pl-0"><a href="https://www.tiendanube.com/ingenieria">Tiendanube Engineering</a></li>
+          </ul>
+          <ul class="font-s col-md-4">
+            <li class="pl-0"><a href="https://www.tiendanube.com/socios">Tiendanube Socios</a></li>
+            <li class="pl-0"><a href="http://docs.tiendanube.com/">Documentación</a></li>
+          </ul>
+          <div class="col-md-4">
+            <h4 class="text-secondary mt-3">Seguinos</h4>
+            <a href="https://www.instagram.com/tiendanube/">
+              <img src="assets/images/instagram.svg" class="svg-icon-primary" />
+            </a>
+
+            <a href="https://www.youtube.com/tiendanube/">
+              <img src="assets/images/youtube.svg" class="svg-icon-primary" />
+            </a>
+
+            <a href="https://twitter.com/TiendaNube/">
+              <img src="assets/images/twitter.svg" class="svg-icon-primary"/>
+            </a>
+
+            <a href="https://www.linkedin.com/company/tiendanube/">
+              <img src="assets/images/linkedin.svg" class="svg-icon-primary" />
+            </a>
+
+            <a href="https://www.facebook.com/TiendaNube/">
+              <img src="assets/images/facebook.svg" class="svg-icon-primary" />
+            </a>
+          </div>
+        </div>
+        <p class="row justify-content-center pt-4 font-xs text-secondary">
+          2007-2020 Tiendanube - Todos los derechos reservados. <a href="https://www.tiendanube.com/que-es-tienda-nube/terminos-de-uso" class="ml-1">Términos y condiciones.</a><a href="https://www.tiendanube.com/politicas-de-privacidad">Políticas de privacidad.</a><a href="https://www.tiendanube.com/politica-de-calidad"> Política de calidad.</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,19 +1,15 @@
-
-$color-primary: #98ECFF;
-$color-secondary: #111424;
-
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: $font-family;
-  background: $color-secondary;
+  font-family: Centranube;
+  background: #111424;
 }
 
 body {
-  background: url(../public/icon-grid.svg) top 103px right -15px no-repeat,
-              url(../public/horizontal-grid.svg) top 75px right -15px repeat-x,
-              url(../public/vertical-grid.svg) top right -147px repeat-y;
+  background: url(../images/icon-grid.svg) top 103px right -15px no-repeat,
+              url(../images/horizontal-grid.svg) top 109px right -15px repeat-x,
+              url(../images/vertical-grid.svg) top right -147px repeat-y;
 }
 
 a {
@@ -33,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: $color-primary;
+  color: #98ECFF;
 }
 
 h2{
@@ -46,12 +42,12 @@ p {
 }
 
 .text-primary {
-  color: $color-primary;
-  -webkit-text-stroke-color: $color-primary;
+  color: #98ECFF;
+  -webkit-text-stroke-color: #98ECFF;
 }
 
 .text-secondary {
-  color: $color-secondary;
+  color: #111424;
 }
 
 .outline{
@@ -61,11 +57,11 @@ p {
 }
 
 .font-xs {
-  font-size: $font-size-x-small;
+  font-size: 14px;
 }
 
 .font-s {
-  font-size: $font-size-small;
+  font-size: 16px;
 }
 
 .font-bold {
@@ -85,17 +81,17 @@ p {
 
 }
 .btn-primary {
-  background-color: $color-grey-0;
+  background-color: #ECEBEC;
 }
 
 .btn-secondary {
-  background-color: $color-secondary;
+  background-color: #111424;
   color: white;
 }
 
 .btn-link {
   text-decoration: underline;
-  color: $color-primary;
+  color: #98ECFF;
 }
 
 /* Header */
@@ -111,25 +107,35 @@ p {
 
 .hero-title {
   font-size: 112px;
-  color: $color-primary;
+  color: #98ECFF;
+}
+
+/* SVG Icons */
+
+.svg-icon-primary{
+  fill: #98ECFF;
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+  }
 }
 
 /* Modal */
 
 .modal{
   display: none;
-  background: $color-grey-0;
+  background: #ECEBEC;
   border-radius: 8px;
   padding: 12px;
 }
 
 .modal-body{
   padding: 12px;
-  color: $color-secondary;
+  color: #111424;
 }
 
 .modal-icon{
-  fill: $color-grey-0;;
+  fill: #ECEBEC;
 }
 
 .icon-gallery {
@@ -160,7 +166,7 @@ p {
 }
 
 .icon-gallery-item svg {
-  fill: $color-primary;
+  fill: #98ECFF;
   transition: $motion-fast ease;
 }
 
@@ -169,7 +175,7 @@ p {
 footer {
   width: 100%;
   margin-top: $spacing-xxx-large;
-  background: $color-grey-0;
+  background: #ECEBEC;
 } 
 
 .social-media-logo {
