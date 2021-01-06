@@ -1,0 +1,43 @@
+$color-primary: #98ECFF;
+$color-secondary: #111424;
+
+$font-family : 'Helvetica' sans;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $font-family;
+  background: $color-secondary;
+}
+
+body {
+  background: url(../public/icon-grid.svg) top 103px right -15px no-repeat,
+              url(../public/horizontal-grid.svg) top 75px right -15px repeat-x,
+              url(../public/vertical-grid.svg) top right -147px repeat-y;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+  
+* {
+  box-sizing: border-box;
+}
+
+/* Texts */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $color-primary;
+}
+
+h2{
+  font-size: 42px;
+}
+
