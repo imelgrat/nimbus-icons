@@ -112,24 +112,36 @@ p {
 
 /* SVG Icons */
 
-.svg-icon-primary{
+.svg-icon-primary {
   fill: #98ECFF;
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+  }
+
+.svg-icon-secondary {
+  fill: #111424;
   height: 24px;
   width: 24px;
   margin-right: 8px;
   }
+
+.svg-icon-item {
+  height: 48px;
+  width: 48px;
 }
+
 
 /* Modal */
 
-.modal{
+.modal {
   display: none;
   background: #ECEBEC;
   border-radius: 8px;
   padding: 12px;
 }
 
-.modal-body{
+.modal-body {
   padding: 12px;
   color: #111424;
 }
