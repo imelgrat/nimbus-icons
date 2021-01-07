@@ -64,9 +64,9 @@ body {
 }
 
 body {
-  background: url(../public/icon-grid.svg) top 103px right -15px no-repeat,
-              url(../public/horizontal-grid.svg) top 75px right -15px repeat-x,
-              url(../public/vertical-grid.svg) top right -147px repeat-y;
+  background: url(../images/icon-grid.svg) top 129px right -15px no-repeat,
+              url(../images/horizontal-grid.svg) top 105px right -15px repeat-x,
+              url(../images/vertical-grid.svg) top right -147px repeat-y;
 }
 
 a {
@@ -121,6 +121,10 @@ p {
   font-size: $font-size-small;
 }
 
+.font-m {
+  font-size: $font-size-medium;
+}
+
 .font-bold {
   font-weight: bold;
 }
@@ -163,9 +167,24 @@ p {
 }
 
 .hero-title {
-  font-size: 112px;
+  font-size: 80px;
   color: $color-primary;
 }
+
+@media (min-width: 576px) {
+	.hero-title {
+  		font-size: 112px;
+	}
+}
+
+/* SVG Icons */
+
+.svg-icon-secondary{
+  fill: $color-secondary;
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+ }
 
 /* Modal */
 
