@@ -25,7 +25,11 @@ title: "Nimbus icons"
 	</div>
 	<div class="row mt-5">
 		<div class="col-md-10">
-			<img src="../icons/apps.svg" class="svg-icon-item"/>
+			{% for icon in site.data.icons %}
+			    <a href="" data-name="{{ icon.name }}" data-url="assets/images/icons/{{ icon.name }}.svg" class="svg-icon-item">
+			    	{% include_relative assets/images/icons/{{ icon.name }}.svg %}
+			    </a>
+			{% endfor %}
 		</div>
 	</div>
 	<div class="row mb-5 align-items-center"> 
