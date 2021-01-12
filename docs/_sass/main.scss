@@ -186,13 +186,34 @@ p {
   margin-right: 8px;
  }
 
-/* Modal */
+/*.svg-icon-item svg{
+  fill: $color-primary;
+  height: 36px;
+  width: 36px;
+  margin: 40px 40px 40px 0;
+
+}
+
+.svg-icon-item svg:hover {
+  border-color: $color-grey-0;
+}
+
+*/
+
+/* Modal */	
 
 .modal{
-  display: none;
   background: $color-grey-0;
   border-radius: 8px;
   padding: 12px;
+  width: 600px;
+  height: 100px;
+  color: $color-secondary !important;
+}
+@media (max-width: 576px) {
+  .modal {
+    width: 100%;
+  }
 }
 
 .modal-body{
@@ -200,8 +221,13 @@ p {
   color: $color-secondary;
 }
 
-.modal-icon{
-  fill: $color-grey-0;;
+.modal-button{
+  background: $color-secondary;
+  width: 64px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: $color-grey-0;
 }
 
 .icon-gallery {
@@ -218,9 +244,9 @@ p {
 
 .icon-gallery-item {
   cursor: pointer;
-  margin-left: $spacing-small;
+  margin-left: $spacing-xx-small;
   margin-top: $spacing-medium;
-  margin-right: $spacing-small;
+  margin-right: $spacing-xx-small;
   padding: $spacing-medium;
   transition: $motion-fast ease;
   border: 1px solid transparent;
@@ -234,6 +260,8 @@ p {
 .icon-gallery-item svg {
   fill: $color-primary;
   transition: $motion-fast ease;
+  width: 32px;
+  height: 32px;
 }
 
 /* Footer */

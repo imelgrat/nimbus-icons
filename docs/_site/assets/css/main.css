@@ -45,22 +45,37 @@ p { font-size: 16px; color: white; }
 /* SVG Icons */
 .svg-icon-secondary { fill: #111424; height: 24px; width: 24px; margin-right: 8px; }
 
+/*.svg-icon-item svg{
+  fill: $color-primary;
+  height: 36px;
+  width: 36px;
+  margin: 40px 40px 40px 0;
+
+}
+
+.svg-icon-item svg:hover {
+  border-color: $color-grey-0;
+}
+
+*/
 /* Modal */
-.modal { display: none; background: #ecebec; border-radius: 8px; padding: 12px; }
+.modal { background: #ecebec; border-radius: 8px; padding: 12px; width: 600px; height: 100px; color: #111424 !important; }
+
+@media (max-width: 576px) { .modal { width: 100%; } }
 
 .modal-body { padding: 12px; color: #111424; }
 
-.modal-icon { fill: #ecebec; }
+.modal-button { background: #111424; width: 64px; height: 40px; border-radius: 8px; padding: 8px 16px; color: #ecebec; }
 
 .icon-gallery { margin-top: 32px; }
 
 .icon-gallery-wrapper { display: flex; flex-wrap: wrap; justify-content: left; margin-left: -32px; margin-top: -24px; }
 
-.icon-gallery-item { cursor: pointer; margin-left: 16px; margin-top: 24px; margin-right: 16px; padding: 24px; transition: 150ms ease; border: 1px solid transparent; border-radius: 4px; }
+.icon-gallery-item { cursor: pointer; margin-left: 4px; margin-top: 24px; margin-right: 4px; padding: 24px; transition: 150ms ease; border: 1px solid transparent; border-radius: 4px; }
 
 .icon-gallery-item:hover { border-color: rgba(152, 236, 255, 0.2); }
 
-.icon-gallery-item svg { fill: #98ECFF; transition: 150ms ease; }
+.icon-gallery-item svg { fill: #98ECFF; transition: 150ms ease; width: 32px; height: 32px; }
 
 /* Footer */
 footer { width: 100%; margin-top: 56px; background: #ecebec; }

@@ -24,12 +24,26 @@ title: "Nimbus icons"
 		</div>
 	</div>
 	<div class="row mt-5">
-		<div class="col-md-10">
+		<div class="col col-md-10 m-0 ml-0 p-0 icon-gallery-wrapper">
 			{% for icon in site.data.icons %}
-			    <a href="" data-name="{{ icon.name }}" data-url="assets/images/icons/{{ icon.name }}.svg" class="svg-icon-item">
+			    <a href="" data-name="{{ icon.name }}" data-url="assets/images/icons/{{ icon.name }}.svg" class="icon-gallery-item">
 			    	{% include_relative assets/images/icons/{{ icon.name }}.svg %}
 			    </a>
 			{% endfor %}
+		</div>
+		<div class="row modal align-items-center">
+			<div class="col-2">
+				<h4 class="m-0 text-secondary">Nombre</h4>
+				<p class="m-0 text-secondary">400x400</p>
+			</div>
+			<div class="col-6">
+				<h4 class="m-0 text-secondary">Nombre</h4>
+				<p class="m-0 text-secondary">400x400</p>
+			</div>
+			<div class="col-4">
+				<a class="btn modal-button mr-3" href="www.tiendanube.com">SVG</a>
+				<a class="btn modal-button" href="www.tiendanube.com">PNG</a>
+			</div>
 		</div>
 	</div>
 	<div class="row mb-5 align-items-center"> 
