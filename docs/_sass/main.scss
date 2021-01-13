@@ -139,32 +139,22 @@ p {
 .btn {
   border-radius: 8px;
   padding: 10px;
-
-}
-.btn-primary {
-  background-color: $color-grey-0;
-}
-
-.btn-secondary {
-  background-color: $color-secondary;
-  color: white;
-}
-
-.btn-link {
-  text-decoration: underline;
-  color: $color-primary;
+  &-primary {
+    background-color: $color-grey-0;
+  }
+  &-secondary {
+    background-color: $color-secondary;
+    color: white;
+  }
+  &-link {
+    text-decoration: underline;
+    color: $color-primary;
+  }
 }
 
 /* Header */
 
-.head {
-
-}
-
 /* Hero */
-
-.hero {
-}
 
 .hero-title {
   font-size: 80px;
@@ -203,12 +193,28 @@ p {
 /* Modal */	
 
 .modal{
+  position: absolute;
+  top: 0;
+  left: 15px;
+  z-index: 999;
   background: $color-grey-0;
-  border-radius: 8px;
+  border-radius: $spacing-xx-small;
   padding: 12px;
-  width: 600px;
-  height: 100px;
+  width: 480px;
+  height: 84px;
   color: $color-secondary !important;
+  &-body{
+    padding: 12px;
+    color: $color-secondary;
+  }
+  &-button{
+    background: $color-secondary;
+    width: 64px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: $color-grey-0;
+  }
 }
 @media (max-width: 576px) {
   .modal {
@@ -216,52 +222,36 @@ p {
   }
 }
 
-.modal-body{
-  padding: 12px;
-  color: $color-secondary;
-}
-
-.modal-button{
-  background: $color-secondary;
-  width: 64px;
-  height: 40px;
-  border-radius: 8px;
-  padding: 8px 16px;
-  color: $color-grey-0;
-}
-
 .icon-gallery {
   margin-top: $spacing-large;
-}
-
-.icon-gallery-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
-  margin-left: -$spacing-large;
-  margin-top: -$spacing-medium;
-}
-
-.icon-gallery-item {
-  cursor: pointer;
-  margin-left: $spacing-xx-small;
-  margin-top: $spacing-medium;
-  margin-right: $spacing-xx-small;
-  padding: $spacing-medium;
-  transition: $motion-fast ease;
-  border: 1px solid transparent;
-  border-radius: $spacing-xx-small;
-}
-
-.icon-gallery-item:hover {
-  border-color: rgba($color-primary, .2);
-}
-
-.icon-gallery-item svg {
-  fill: $color-primary;
-  transition: $motion-fast ease;
-  width: 32px;
-  height: 32px;
+  &-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: -$spacing-large;
+    margin-top: -$spacing-medium;
+  }
+  &-item {
+    position: relative;
+    cursor: pointer;
+    margin-left: $spacing-xx-small;
+    margin-top: $spacing-medium;
+    margin-right: $spacing-xx-small;
+    padding: $spacing-medium;
+    transition: $motion-fast ease;
+    border: 1px solid transparent;
+    border-radius: $spacing-xx-small;
+    &:hover,
+    &.active {
+      border-color: rgba($color-primary, .2);
+    }
+    svg {
+      fill: $color-primary;
+      transition: $motion-fast ease;
+      width: 32px;
+      height: 32px;
+    }
+  }
 }
 
 /* Footer */

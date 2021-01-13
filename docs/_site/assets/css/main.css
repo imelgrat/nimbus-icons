@@ -59,21 +59,21 @@ p { font-size: 16px; color: white; }
 
 */
 /* Modal */
-.modal { background: #ecebec; border-radius: 8px; padding: 12px; width: 600px; height: 100px; color: #111424 !important; }
-
-@media (max-width: 576px) { .modal { width: 100%; } }
+.modal { position: absolute; top: 0; left: 15px; z-index: 999; background: #ecebec; border-radius: 4px; padding: 12px; width: 480px; height: 84px; color: #111424 !important; }
 
 .modal-body { padding: 12px; color: #111424; }
 
 .modal-button { background: #111424; width: 64px; height: 40px; border-radius: 8px; padding: 8px 16px; color: #ecebec; }
 
+@media (max-width: 576px) { .modal { width: 100%; } }
+
 .icon-gallery { margin-top: 32px; }
 
 .icon-gallery-wrapper { display: flex; flex-wrap: wrap; justify-content: left; margin-left: -32px; margin-top: -24px; }
 
-.icon-gallery-item { cursor: pointer; margin-left: 4px; margin-top: 24px; margin-right: 4px; padding: 24px; transition: 150ms ease; border: 1px solid transparent; border-radius: 4px; }
+.icon-gallery-item { position: relative; cursor: pointer; margin-left: 4px; margin-top: 24px; margin-right: 4px; padding: 24px; transition: 150ms ease; border: 1px solid transparent; border-radius: 4px; }
 
-.icon-gallery-item:hover { border-color: rgba(152, 236, 255, 0.2); }
+.icon-gallery-item:hover, .icon-gallery-item.active { border-color: rgba(152, 236, 255, 0.2); }
 
 .icon-gallery-item svg { fill: #98ECFF; transition: 150ms ease; width: 32px; height: 32px; }
 
