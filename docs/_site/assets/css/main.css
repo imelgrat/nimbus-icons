@@ -59,7 +59,7 @@ p { font-size: 16px; color: white; }
 
 .icon-gallery { margin-top: 32px; }
 
-.icon-gallery-wrapper { display: flex; flex-wrap: wrap; justify-content: left; margin-left: 0 0 -24px; padding: 0; }
+.icon-gallery-wrapper { display: flex; flex-wrap: wrap; justify-content: left; margin: 0 0 -24px; padding: 0; }
 
 .icon-gallery-item { cursor: pointer; margin-left: 4px; margin-top: 24px; margin-right: 4px; padding: 24px; transition: 150ms ease; border: 1px solid transparent; border-radius: 4px; }
 
