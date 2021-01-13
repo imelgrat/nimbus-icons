@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Nimbus icons"
+lang: es
 ---
 
 <div class="container"> 
@@ -35,21 +36,21 @@ title: "Nimbus icons"
 	</div>
 	<div class="row mb-5 align-items-center"> 
 		<div class="col-12 col-md-4 m-0"> 
-			<h2 class="mb-1">Enfocados en potenciar</h2>
-			<p class="m-0 mb-2">Queremos íconos que respondan a las necesidades de quienes trabajan en diseñar, programar o crear un producto para potenciar marcas y negocios de la región.</p>
-			<a class="btn-link font-s" href="www.tiendanube.com">Enterate más acá</a>
+			<h2 class="mb-1">{{ site.data.translations['infoBannersTitle1'][page.lang] }}</h2>
+			<p class="m-0 mb-2">{{ site.data.translations['infoBannersDescription1'][page.lang] }}</p>
+			<a class="btn-link font-s" href="www.tiendanube.com">{{ site.data.translations['infoBannersLink1'][page.lang] }}</a>
 			<img src="assets/images/external-link-2.svg" class="mt-1 ml-1 svg-icon-primary"/>
 		</div>
 		<div class="col-12 col-md-4 m-0"> 
-			<h2 class="mb-1">Son open-source</h2>
-			<p class="mt-0 mb-2">Sumá tus íconos o pedinos el que estás necesitando y lo diseñamos. ¡O también podés diseñarlos vos y enviar una propuesta!</p>
-			<a class="btn-link font-s" href="www.tiendanube.com">Sumate a nuestro repo en Github</a>
+			<h2 class="mb-1">{{ site.data.translations['infoBannersTitle2'][page.lang] }}</h2>
+			<p class="mt-0 mb-2">{{ site.data.translations['infoBannersDescription2'][page.lang] }}</p>
+			<a class="btn-link font-s" href="www.tiendanube.com">{{ site.data.translations['infoBannersLink2'][page.lang] }}</a>
 			<img src="assets/images/external-link-2.svg" class="mt-1 ml-1 svg-icon-primary"/>
 		</div>
 		<div class="col-12 col-md-4 m-0"> 
-			<h2 class="mb-1">Nube-perfect</h2>
-			<p class="mt-0 mb-2">Nuestros íconos toman como base la morfología del símbolo de la marca y sus proporciones.</p>
-			<a class="btn-link font-s" href="www.tiendanube.com">Mirá nuestra guía de estilo</a> 
+			<h2 class="mb-1">{{ site.data.translations['infoBannersTitle3'][page.lang] }}</h2>
+			<p class="mt-0 mb-2">{{ site.data.translations['infoBannersDescription3'][page.lang] }}</p>
+			<a class="btn-link font-s" href="www.tiendanube.com">{{ site.data.translations['infoBannersLink3'][page.lang] }}</a> 
 			<img src="assets/images/external-link-2.svg" class="mt-1 ml-1 svg-icon-primary"/>
 		</div>
 	</div>
