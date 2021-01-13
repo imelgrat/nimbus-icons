@@ -78,6 +78,12 @@ a {
   box-sizing: border-box;
 }
 
+/* Colors */
+
+.color-secondary{
+  fill: $color-secondary;
+ }
+
 /* Texts */
 
 h1,
@@ -176,9 +182,6 @@ p {
   margin-right: 8px;
  }
 
-.svg-icon-s{
-  fill: $color-secondary;
- }
 
 /* Modal */	
 
@@ -247,6 +250,18 @@ p {
     }
   }
 }
+
+.js-icon-modal svg{
+    fill: $color-secondary;
+}
+
+@media (min-width: 768px) {
+	.js-icon-modal svg{
+    width: 44px;
+    height: 44px;
+	}
+}
+
 
 /* Footer */
 
