@@ -176,6 +176,10 @@ p {
   margin-right: 8px;
  }
 
+.svg-icon-s{
+  fill: $color-secondary;
+ }
+
 /* Modal */	
 
 .modal{
@@ -187,7 +191,7 @@ p {
   border-radius: $spacing-xx-small;
   padding: 12px;
   width: 480px;
-  height: 84px;
+  height: 95px;
   color: $color-secondary !important;
   &-body{
     padding: 12px;
