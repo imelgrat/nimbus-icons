@@ -8,3 +8,7 @@ $(".js-icon").click(function () {
 		$(this).addClass('active').find(".js-icon-modal").fadeIn();
 	}
 });
+
+$(".js-close-modal").click(function () {
+	$(this).closest(".js-icon-modal").fadeOut();
+});
