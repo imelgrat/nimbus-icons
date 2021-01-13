@@ -45,33 +45,20 @@ p { font-size: 16px; color: white; }
 /* SVG Icons */
 .svg-icon-secondary { fill: #111424; height: 24px; width: 24px; margin-right: 8px; }
 
-/*.svg-icon-item svg{
-  fill: $color-primary;
-  height: 36px;
-  width: 36px;
-  margin: 40px 40px 40px 0;
-
-}
-
-.svg-icon-item svg:hover {
-  border-color: $color-grey-0;
-}
-
-*/
 /* Modal */
-.modal { position: absolute; top: 0; left: 15px; z-index: 999; background: #ecebec; border-radius: 4px; padding: 12px; width: 480px; height: 84px; color: #111424 !important; }
+.modal { position: fixed; bottom: 15px; right: 43%; z-index: 999; background: #ecebec; border-radius: 4px; padding: 12px; width: 480px; height: 84px; color: #111424 !important; }
 
 .modal-body { padding: 12px; color: #111424; }
 
 .modal-button { background: #111424; width: 64px; height: 40px; border-radius: 8px; padding: 8px 16px; color: #ecebec; }
 
-@media (max-width: 576px) { .modal { width: 100%; } }
+@media (max-width: 576px) { .modal { bottom: 5px; width: 100%; transform: translate(-16px, 10px); right: 0; border-radius: 0; } }
 
 .icon-gallery { margin-top: 32px; }
 
 .icon-gallery-wrapper { display: flex; flex-wrap: wrap; justify-content: left; margin-left: -32px; margin-top: -24px; }
 
-.icon-gallery-item { position: relative; cursor: pointer; margin-left: 4px; margin-top: 24px; margin-right: 4px; padding: 24px; transition: 150ms ease; border: 1px solid transparent; border-radius: 4px; }
+.icon-gallery-item { cursor: pointer; margin-left: 4px; margin-top: 24px; margin-right: 4px; padding: 24px; transition: 150ms ease; border: 1px solid transparent; border-radius: 4px; }
 
 .icon-gallery-item:hover, .icon-gallery-item.active { border-color: rgba(152, 236, 255, 0.2); }
 
