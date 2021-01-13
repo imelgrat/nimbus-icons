@@ -25,7 +25,7 @@ lang: es
 		</div>
 	</div>
 	<div class="row mt-5">
-		<div class="col col-md-10 m-0 ml-0 p-0 icon-gallery-wrapper">
+		<div class="col col-md-10 icon-gallery-wrapper">
 			{% for icon in site.data.icons %}
 			    <span data-name="{{ icon.name }}" data-url="assets/images/icons/{{ icon.name }}.svg" class="js-icon icon-gallery-item">
 			    	{% include_relative assets/images/icons/{{ icon.name }}.svg %}

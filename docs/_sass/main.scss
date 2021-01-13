@@ -226,8 +226,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    margin-left: -$spacing-large;
-    margin-top: -$spacing-medium;
+    margin-left: 0 0 0 -$spacing-medium;
+    padding: 0;
   }
   &-item {
     cursor: pointer;
