@@ -51,7 +51,6 @@ $spacing-xx-large: 48px;
 $spacing-xxx-large: 56px;
 $spacing-gutter: 32px;
 
-
 $color-primary: #98ECFF;
 $color-secondary: #111424;
 
@@ -76,6 +75,35 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.bg-white {
+  background: $color-white;
+}
+
+.bg-light {
+  background: $color-grey-0;
+}
+
+/* Nav */
+
+.nav {
+  display: block;
+}
+
+.nav-link {
+  display: block;
+  margin-left: 0;
+  margin-bottom: 5px;
+  color: $color-grey-60;
+}
+
+.nav-link-secondary{
+  color: $color-blue-primary;
+}
+
+.nav-margin {
+  margin-top: 44px;
 }
 
 /* Colors */
@@ -111,6 +139,10 @@ p {
 
 .text-secondary {
   color: $color-secondary;
+}
+
+.title-secondary {
+  color: $color-blue-dark;
 }
 
 .outline{
@@ -173,9 +205,24 @@ p {
 	}
 }
 
+/* Styleguide content */
+
+.grid-area {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
 /* SVG Icons */
 
-.svg-icon-secondary{
+.svg-icon-primary {
+  fill: $color-secondary;
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+}
+
+.svg-icon-secondary {
   fill: $color-secondary;
   height: 24px;
   width: 24px;
