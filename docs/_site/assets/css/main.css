@@ -49,13 +49,17 @@ p { font-size: 16px; color: white; }
 .svg-icon-secondary { fill: #111424; height: 24px; width: 24px; margin-right: 8px; }
 
 /* Modal */
-.modal { position: fixed; bottom: 15px; right: 43%; z-index: 999; background: #ecebec; border-radius: 4px; padding: 12px; width: 480px; height: 95px; color: #111424 !important; }
+.modal { position: fixed; bottom: 0; left: 15px; z-index: 999; background: #ecebec; border-radius: 0; padding: 12px; width: 100%; height: 95px; color: #111424 !important; }
 
 .modal-body { padding: 12px; color: #111424; }
 
 .modal-button { background: #111424; width: 64px; height: 40px; border-radius: 8px; padding: 8px 16px; color: #ecebec; }
 
-@media (max-width: 576px) { .modal { bottom: 5px; width: 100%; transform: translate(-16px, 10px); right: 0; border-radius: 0; } }
+.modal-absolute { position: absolute; }
+
+@media (min-width: 768px) { .modal { bottom: 15px; width: 480px; left: calc(50% - 340px); border-radius: 4px; } .modal-absolute { position: absolute; transform: translate(95px, 0); } }
+
+.modal-bot { position: absolute; left: calc(50% - 240px); }
 
 .icon-gallery { margin-top: 32px; }
 
@@ -66,6 +70,8 @@ p { font-size: 16px; color: white; }
 .icon-gallery-item:hover, .icon-gallery-item.active { border-color: rgba(152, 236, 255, 0.2); }
 
 .icon-gallery-item svg { fill: #98ECFF; transition: 150ms ease; width: 32px; height: 32px; }
+
+.icon-gallery-end { display: block; width: 100%; height: 120px; }
 
 .js-icon-modal svg { fill: #111424; }
 

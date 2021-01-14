@@ -32,9 +32,10 @@ lang: es
 			    	{% include modal-download-icon.html %}
 			    </span>
 			{% endfor %}
+			<div class="js-icon-gallery-end icon-gallery-end"></div>
 		</div>
 	</div>
-	<div class="row mb-5 align-items-center"> 
+	<div class="row my-5 align-items-center"> 
 		<div class="col-12 col-md-4 m-0"> 
 			<h2 class="mb-1">{{ site.data.translations['infoBannersTitle1'][page.lang] }}</h2>
 			<p class="m-0 mb-2">{{ site.data.translations['infoBannersDescription1'][page.lang] }}</p>
