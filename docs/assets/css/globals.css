@@ -21,6 +21,27 @@ a {
   box-sizing: border-box;
 }
 
+.bg-white {
+  background: #ffffff;
+}
+
+.bg-light {
+  background: #f8f8f8;
+}
+
+/* Nav */
+
+.nav {
+  display: block;
+}
+
+.nav-link {
+  display: block;
+  margin-left: 0;
+  margin-bottom: 5px;
+  color: #918A8D;
+}
+
 /* Texts */
 
 h1,
@@ -48,6 +69,10 @@ p {
 
 .text-secondary {
   color: #111424;
+}
+
+.title-secondary {
+  color: #2C3357;
 }
 
 .outline{
@@ -94,6 +119,11 @@ p {
   color: #98ECFF;
 }
 
+.btn-link-secondary {
+  text-decoration: underline;
+  color: #2F80ED;
+}
+
 /* Header */
 
 .head {
@@ -108,6 +138,14 @@ p {
 .hero-title {
   font-size: 112px;
   color: #98ECFF;
+}
+
+/* Styleguide content */
+
+.grid-area {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
 /* SVG Icons */
@@ -129,6 +167,13 @@ p {
 .svg-icon-item {
   height: 48px;
   width: 48px;
+}
+
+.svg-icon-blue {
+  fill: #2F80ED;
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
 }
 
 
