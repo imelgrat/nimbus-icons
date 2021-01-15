@@ -277,6 +277,10 @@ p {
   &-absolute {
     position: absolute;
   }
+  &-close svg {
+    width: 8px;
+    height: 8px;
+  }
 }
 @media (min-width: 768px) {
   .modal {
@@ -332,12 +336,12 @@ p {
   }
 }
 
-.js-icon-modal svg{
+.modal-icon-preview svg{
     fill: $color-secondary;
 }
 
 @media (min-width: 768px) {
-	.js-icon-modal svg{
+	.modal-icon-preview svg{
     width: 44px;
     height: 44px;
 	}

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Nimbus icons"
-lang: en
+lang: pt
 ---
 
 <div class="container"> 
@@ -25,7 +25,7 @@ lang: en
 	<div class="row mt-5">
 		<div class="col col-md-10 icon-gallery-wrapper">
 			{% for icon in site.data.icons %}
-			    <span data-name="{{ icon.name }}" data-url="icons/{{ icon.name }}.svg" class="js-icon icon-gallery-item">
+			    <span data-name="{{ icon.name }}" data-url="assets/images/icons/{{ icon.name }}.svg" class="js-icon icon-gallery-item">
 			    	{% include icons/{{ icon.name }}.svg %}
 			    	{% include modal-download-icon.html %}
 			    </span>

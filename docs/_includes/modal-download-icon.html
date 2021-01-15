@@ -1,6 +1,6 @@
 <div class="js-icon-modal modal row align-items-center" style="display: none">
-	<div class="col-2">
-		{% include_relative assets/images/icons/{{ icon.name }}.svg %}
+	<div class="col-2 modal-icon-preview">
+		{% include icons/{{ icon.name }}.svg %}
 	</div>
 	<div class="col-3 col-md-5">
 		<h4 class="m-0 text-secondary">{{ icon.name }}</h4>
@@ -11,8 +11,8 @@
 		<a class="btn modal-button" href="assets/images/icons/{{ icon.name }}.png" download="{{ icon.name }}">PNG</a>
 	</div>
 	<div class="row float-right mb-5">
-		<span class="js-close-modal">
-			<img src="../assets/images/icons/close.svg" class="color-secondary" />
+		<span class="js-close-modal modal-close">
+			{% include images/close.svg class="color-secondary" %}
 		</span>
 	</div>
 </div>
