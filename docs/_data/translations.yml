@@ -4,7 +4,7 @@ title:
   mx: "Nimbus <span class='text-primary text-outline'>icons.</span>"
   en: "Nimbus <span class='text-primary text-outline'>icons.</span>"
 heroDescription:
-  pt: "Ícones open-source (código aberto) para acelerar os designs e desenvolvimentos para pessoas que buscam potencializar histórias no Brasil.<br>Local (como a caipirinha), flexível e gratuito para você usar onde e como quiser."
+  pt: "Ícones open-source (código aberto) para acelerar os designs e desenvolvimentos para pessoas que buscam potencializar histórias no Brasil. Local (como a caipirinha), flexível e gratuito para você usar onde e como quiser."
   es: "Íconos open-source para acelerar los diseños y desarrollos de las personas que buscan potenciar historias en Argentina.<br>Locales (como el mate), flexibles, y gratuitos para que los uses donde quieras y como quieras."
   mx: "Íconos open-source para acelerar los diseños y desarrollos de las personas que buscan potenciar historias en México. Locales, (como el tequila), flexibles, y gratuitos para que los uses donde quieras y como quieras."
   en: "Our open-source icons exist to accelerate the design and engineering process of every creator that wants to boost stories in Latin America. These icons are local, flexible, and free, so that you can use them anywhere and at any time."
@@ -63,4 +63,48 @@ infoBannersLink3:
   es: "Mirá nuestra guía de estilo"
   mx: "Mira nuestra guía de estilo"
   en: "Take a look at our styleguide"
-
+footerLink1:
+  pt: "Nuvemshop Design"
+  es: "Tiendanube Design"
+  mx: "Tiendanube Design"
+  en: "Tiendanube Design"
+footerLink2:
+  pt: "Nuvemshop Engineering"
+  es: "Tiendanube Engineering"
+  mx: "Tiendanube Engineering"
+  en: "Tiendanube Engineering"
+footerLink3:
+  pt: "Nuvemshop Sócios"
+  es: "Tiendanube Socios"
+  mx: "Tiendanube Socios"
+  en: "Tiendanube Partners"
+footerLink4:
+  pt: "Documentação"
+  es: "Documentación"
+  mx: "Documentación"
+  en: "Documentation"
+footerFollow:
+  pt: "Siga-nos"
+  es: "Seguinos"
+  mx: "Síguenos"
+  en: "Follow us"
+footerLegal:
+  pt: "2011-2021 Nuvemshop - Todos os direitos reservados."
+  es: "2011-2021 Tiendanube - Todos los derechos reservados."
+  mx: "2011-2021 Tiendanube - Todos los derechos reservados."
+  en: "2011-2021 Tiendanube - All rights reserved."
+footerLegalLink1:
+  pt: "Termos e condições."
+  es: "Términos y condiciones."
+  mx: "Términos y condiciones."
+  en: "Terms and conditions."
+footerLegalLink2:
+  pt: "Políticas de privacidade."
+  es: "Políticas de privacidad."
+  mx: "Políticas de privacidad."
+  en: "Privacy policies."
+footerLegalLink3:
+  pt: "Política de qualidade."
+  es: "Política de calidad."
+  mx: "Política de calidad."
+  en: "Quality policy."
