@@ -147,6 +147,10 @@ p {
   color: $color-blue-dark;
 }
 
+.text-center {
+  text-align: center!important;
+}
+
 .outline{
 }
 
@@ -230,6 +234,10 @@ p {
 .grid-image {
   max-width: 100%;
   height: auto;
+}
+
+.grid-subtitle {
+  color: $color-grey-60;
 }
 
 /* SVG Icons */

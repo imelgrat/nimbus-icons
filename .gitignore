@@ -20,3 +20,11 @@ dist/
 **/.DS_Store
 src/__generated__/
 lib/**/build/
+
+.bundle/
+.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/4e/
+Gemfile
+Gemfile.lock
+docs/.jekyll-cache/
+docs/_site/assets/images/styleguide/
+vendor/

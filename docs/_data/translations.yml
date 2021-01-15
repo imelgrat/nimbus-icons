@@ -108,3 +108,102 @@ footerLegalLink3:
   es: "Política de calidad."
   mx: "Política de calidad."
   en: "Quality policy."
+styleguideHeadline:
+  pt: "Se você quer conhecer os guias para desenhar novos ícones e contribuir para Nimbus Icons, este é o lugar!"
+  es: "Si querés conocer las guías para diseñar nuevos iconos y contribuir para Nimbus Icons, ¡este es el lugar!"
+styleguideGridTitle:
+  pt: "Grid"
+  es: "Grilla"
+styleguideGridContent:
+  pt: "Para desenhar <strong>Nimbus Icons</strong> utilizamos como base um grid de <strong>160px</strong> por <strong>160px</strong> com módulos de <strong>10px</strong>. Ao finalizar o desenho, reduzimos o ícone para seu tamanho base (16x16px)."
+  es: "Para diseñar <strong>Nimbus Icons</strong> utilizamos como base una grilla de <strong>160px</strong> por <strong>160px</strong> com modulos de <strong>10px</strong>. Al finalizar el diseño escalamos el ícono a su tamaño base (16x16px)."
+styleguideStyleTitle:
+  pt: "Estilo"
+  es: "Estilo"
+styleguideStyleContent-1:
+  pt: ""
+  es: "El estilo gráfico que utilizamos para el sistema de íconos es alargado en su eje horizontal. Por lo que las formas que suelen ser simétricas, las alargamos en su eje X (horizontalmente)."
+styleguideStyleContent-2:
+  pt: ""
+  es: "Para dibujar un nuevo ícono, elegimos una forma base y mantenemos el diseño dentro de los contenedores."
+styleguideStyleContent-3:
+  pt: ""
+  es: "Visualmente el cuerpo u objeto dominante del ícono tiene que estar centrado tanto vertical como horizontalmente."
+styleguideStyleSubtCircle:
+  pt: ""
+  es: "Círculo"
+styleguideStyleSubtSquare:
+  pt: ""
+  es: "Cuadrado"
+styleguideStyleSubtRet-v:
+  pt: ""
+  es: "Rectángulo vertical"
+styleguideStyleSubtRet-h:
+  pt: ""
+  es: "Rectángulo horizontal"
+styleguideStrokeSpaceTitle:
+  pt: ""
+  es: "Trazo y espaciado"
+styleguideStrokeSpaceContent:
+  pt: ""
+  es: "Utilizamos un trazo constante de <strong>12,5px</strong>. Además, el espacio que existe entre diferentes trazos no puede ser menor a esa medida."
+styleguideTipFillTitle:
+  pt: ""
+  es: "Puntas y rellenos"
+styleguideTipFillContent:
+  pt: ""
+  es: "Mantener el estilo de los íconos es muy importante para lograr consistencia y que todo el sistema se vea y se sienta como uno. Para <strong>Nimbus Icons</strong> definimos que las puntas de los trazos sean rectas y las formas no tengan relleno."
+styleguideCornersTitle:
+  pt: ""
+  es: "Esquinas"
+styleguideCornersContent:
+  pt: ""
+  es: "tilizamos esquinas redondeadas de <strong>12,5px</strong>, tomando el mismo valor del trazo. Las esquinas internas deben mantenerse rectas."
+styleguideReductionTitle:
+  pt: ""
+  es: "Detalle y reducción"
+styleguideReductionContent:
+  pt: ""
+  es: "Una vez que esté finalizado el diseño, los iconos tienen que funcionar perfectamente en reducciones de hasta 16px, siendo legibles y reconocibles en su forma."
+styleguideNamesTitle:
+  pt: ""
+  es: "Nombres"
+styleguideNamesContent:
+  pt: ""
+  es: "Los íconos deben tener un nombre en función de lo que muestran, no de lo que representan. Por ejemplo, un ícono de un camión se tiene que llamar <strong>truck</strong>, no <strong>shipping</strong>. Además, el nombre de los íconos siempre va escrito en inglés."
+styleguideContributionTitle:
+  pt: ""
+  es: "Colaboración"
+styleguideContributionCont:
+  pt: ""
+  es: "Podés solicitar un ícono nuevo desde <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/issues/new?assignees=&labels=&template=icon-request.md&title=%5BIcon+request%5D'>acá</a>. O podés subir uno nuevo siguiendo nuestra <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/blob/develop/.github/CONTRIBUTING.md'>guía de contribución.</a>"
+styleguideNavTitle:
+  pt: ""
+  es: "En esta página"
+styleguideNavItemGrid:
+  pt: ""
+  es: "Grilla"
+styleguideNavItemStyle:
+  pt: ""
+  es: "Estilo"
+styleguideNavItemStrokeSpace:
+  pt: ""
+  es: "Trazo y espaciado"
+styleguideNavItemTipFill:
+  pt: ""
+  es: "Puntas y rellenos"
+styleguideNavItemCorners:
+  pt: ""
+  es: "Esquinas"
+styleguideNavItemReduction:
+  pt: ""
+  es: "Detalle y reducción"
+styleguideNavItemNames:
+  pt: ""
+  es: "Nombres"
+styleguideNavItemContribution:
+  pt: ""
+  es: "Colaboración"
+styleguideNavItemBackIndex:
+  pt: ""
+  es: "Volver a Nimbus Icons"
