@@ -1,27 +1,66 @@
+title: 
+  pt: "Nimbus <span class='text-primary text-outline'>icons.</span>"
+  es: "Nimbus <span class='text-primary text-outline'>icons.</span>"
+  mx: "Nimbus <span class='text-primary text-outline'>icons.</span>"
+  en: "Nimbus <span class='text-primary text-outline'>icons.</span>"
+heroDescription:
+  pt: "Ícones open-source (código aberto) para acelerar os designs e desenvolvimentos para pessoas que buscam potencializar histórias no Brasil.<br>Local (como a caipirinha), flexível e gratuito para você usar onde e como quiser."
+  es: "Íconos open-source para acelerar los diseños y desarrollos de las personas que buscan potenciar historias en Argentina.<br>Locales (como el mate), flexibles, y gratuitos para que los uses donde quieras y como quieras."
+  mx: "Íconos open-source para acelerar los diseños y desarrollos de las personas que buscan potenciar historias en México. Locales, (como el tequila), flexibles, y gratuitos para que los uses donde quieras y como quieras."
+  en: "Our open-source icons exist to accelerate the design and engineering process of every creator that wants to boost stories in Latin America. These icons are local, flexible, and free, so that you can use them anywhere and at any time."
+primaryButton:
+  pt: "Download"
+  es: "Descargar"
+  mx: "Descargar"
+  en: "Download"
+secondaryButton:
+  pt: "Contribuir"
+  es: "Contribuir"
+  mx: "Contribuir"
+  en: "Contribute"
 infoBannersTitle1:
   pt: "Focado na capacitação"
   es: "Enfocados en potenciar"
+  mx: "Enfocados en potenciar"
+  en: "Boosting projects"
 infoBannersDescription1:
   pt: "Queremos ícones que respondam às necessidades de quem trabalha na concepção, programação ou criação de um produto para promover marcas e negócios na região."
   es: "Queremos íconos que respondan a las necesidades de quienes trabajan en diseñar, programar o crear un producto para potenciar marcas y negocios de la región."
+  mx: "Queremos íconos que respondan a las necesidades de quienes trabajan en diseñar, programar o crear un producto para potenciar marcas y negocios de la región."
+  en: "We want icons that respond to the needs of those who work on designing or programming a product that boost brands and businesses in the region."
 infoBannersLink1:
   pt: "Saiba mais aqui"
   es: "Enterate más acá"
+  mx: "Entérate más aquí"
+  en: "Learn more about it here"
 infoBannersTitle2:
   pt: "Eles são open-source"
   es: "Son open-source"
+  mx: "Son open-source"
+  en: "They’re open-source"
 infoBannersDescription2:
   pt: "Adicione seus ícones ou nos solicite o que você precisa e nós o projetamos. Ou você também pode desenhá-los e enviar uma proposta em nosso repositório!"
   es: "Sumá tus íconos o pedinos el que estás necesitando y lo diseñamos. ¡O también podés diseñarlos vos y enviar una propuesta!"
+  mx: "Suma tus íconos o pídenos el que estés necesitando y lo diseñamos. ¡O también puedes diseñarlos y enviar una propuesta!"
+  en: "Add your icons or ask us for the ones that you need, and we’ll add it to our repository. You can also design them yourself and submit them to our repository!"
 infoBannersLink2:
   pt: "Junte-se ao nosso repositório no Github"
   es: "Sumate a nuestro repo en Github"
+  mx: "Súmate a nuestro repo en Github"
+  en: "Join our repository on Github"
 infoBannersTitle3:
   pt: "Nuvem-perfect"
   es: "Nube-perfect"
+  mx: "Nube-perfect"
+  en: "Nube-perfect"
 infoBannersDescription3:
   pt: "Nossos ícones são baseados na morfologia do símbolo da marca e suas proporções."
   es: "Nuestros íconos toman como base la morfología del símbolo de la marca y sus proporciones."
+  mx: "Nuestros íconos toman como base la morfología del símbolo de la marca y sus proporciones."
+  en: "Our icons take as their base the morphology of our brand’s logo and its proportions."
 infoBannersLink3:
   pt: "Confira nosso guia de estilo"
   es: "Mirá nuestra guía de estilo"
+  mx: "Mira nuestra guía de estilo"
+  en: "Take a look at our styleguide"
+

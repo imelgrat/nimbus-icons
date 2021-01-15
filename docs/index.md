@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Nimbus icons"
-lang: es
+lang: en
 ---
 
 <div class="container"> 
@@ -10,16 +10,14 @@ lang: es
 			<img src="assets/images/nimbus-logo-white.svg" alt="Nimbus logo" class="logo"/>
 			<div class="hero justify-content-left"> 
 				<h1 class="hero-title mb-0">
-				Nimbus <span class="text-primary text-outline">icons.</span>
+				{{ site.data.translations['title'][page.lang] }}
 				</h1>
 				<p class="mt-0 mb-5">
-				Íconos open-source para acelerar los diseños y desarrollos de las personas que buscan potenciar historias en Argentina.
-				<br>
-				Locales (como el mate), flexibles, y gratuitos para que los uses donde quieras y como quieras.
+				{{ site.data.translations['heroDescription'][page.lang] }}
 				</p>
 				<span>
-					<a class="btn btn-primary mr-3" href="www.tiendanube.com">Descargar</a>
-					<a class="btn btn-link" href="www.tiendanube.com">Contribuir</a>
+					<a class="btn btn-primary mr-3" href="www.tiendanube.com">{{ site.data.translations['primaryButton'][page.lang] }} </a>
+					<a class="btn btn-link" href="www.tiendanube.com"> {{ site.data.translations['secondaryButton'][page.lang] }} </a>
 				</span> 
 			</div>
 		</div>
