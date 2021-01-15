@@ -6,7 +6,21 @@ lang: en
 
 <div class="container"> 
 	<div class="row mt-4"> 
-		<div class="col col-md-10"> 
+		<div class="col col-md-10">
+			<div class="d-none">
+				<ul class="m-0 text-primary">
+					<li class="lang-position">EN<img src="assets/images/chevron-down.svg" alt="" class="mt-1 ml-1 svg-icon-primary"/></li>
+					<li class="lang-position d-none">ES<img src="assets/images/chevron-down.svg" alt="" class="mt-1 ml-1 svg-icon-primary"/></li>
+					<li class="lang-position d-none">PT<img src="assets/images/chevron-down.svg" alt="" class="mt-1 ml-1 svg-icon-primary"/></li>
+				</ul>
+			</div>
+			<div class="dropdown">
+			  <a id="dropdown" class="btn text-primary">EN <img src="assets/images/chevron-down.svg" alt="" class="mt-1 ml-1 svg-icon-primary"/></a>
+			  <div class="dropdown-content">
+			    <a href="#">ES</a>
+			    <a href="#">PT</a>
+			  </div>
+			</div>
 			{% include images/nimbus-logo-white.svg alt="Nimbus logo" class="logo" %}
 			<div class="hero justify-content-left"> 
 				<h1 class="hero-title mb-0">
