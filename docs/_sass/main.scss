@@ -53,6 +53,7 @@ $spacing-gutter: 32px;
 
 $color-primary: #98ECFF;
 $color-secondary: #111424;
+$color-grid-background: #F5F5F5;
 
 html,
 body {
@@ -82,7 +83,7 @@ a {
 }
 
 .bg-light {
-  background: $color-grey-0;
+  background: $color-grid-background;
 }
 
 /* Nav */
@@ -100,6 +101,7 @@ a {
 
 .nav-link-secondary{
   color: $color-blue-primary;
+  text-decoration: underline;  
 }
 
 .nav-margin {
@@ -188,6 +190,10 @@ p {
     text-decoration: underline;
     color: $color-primary;
   }
+  &-link-secondary {
+    text-decoration: underline;
+    color: $color-blue-primary;
+  }
 }
 
 /* Header */
@@ -205,12 +211,25 @@ p {
 	}
 }
 
-/* Styleguide content */
+/* Styleguide grid content */
 
 .grid-area {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 20px;
+  padding: 40px;
+}
+
+.grid-gx {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.grid-gy {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.grid-image {
+  max-width: 100%;
+  height: auto;
 }
 
 /* SVG Icons */
