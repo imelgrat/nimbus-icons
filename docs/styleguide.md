@@ -1,25 +1,38 @@
 ---
 layout: default
 title: "Nimbus icons"
-lang: es
+lang: en
 ---
 
-<header>
-  <div class="container"> 
-    <div class="row mt-4"> 
-      <div class="col-12 col-md-10"> 
-        <img src="assets/images/nimbus-logo-white.svg" alt="Nimbus logo" class="logo"/>
-        <div class="hero justify-content-left"> 
-          <h1 class="hero-title mb-0">Styleguide</h1>
-          <p class="mt-0 mb-5">
-            {{ site.data.translations['styleguideHeadline'][page.lang] }}
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+<header class="container">
+  <div class="row mt-4"> 
+		<div class="col col-md-10">
+			<div class="d-none">
+				<ul class="m-0 text-primary">
+					<li class="lang-position">EN<img src="assets/images/chevron-down.svg" alt="" class="mt-1 ml-1 svg-icon-primary"/></li>
+					<li class="lang-position d-none">ES<img src="assets/images/chevron-down.svg" alt="" class="mt-1 ml-1 svg-icon-primary"/></li>
+					<li class="lang-position d-none">PT<img src="assets/images/chevron-down.svg" alt="" class="mt-1 ml-1 svg-icon-primary"/></li>
+				</ul>
+			</div>
+			<div class="dropdown">
+			  <a id="dropdown" class="btn text-primary">EN <img src="assets/images/chevron-down.svg" alt="" class="mt-1 ml-1 svg-icon-primary"/></a>
+			  <div class="dropdown-content">
+			    <a href="#">ES</a>
+			    <a href="#">PT</a>
+			  </div>
+			</div>
+			{% include images/nimbus-logo-white.svg alt="Nimbus logo" class="logo" %}
+			<div class="hero justify-content-left"> 
+				<h1 class="hero-title mb-0">
+				{{ site.data.translations['styleguideTitle'][page.lang] }}
+				</h1>
+				<p class="mt-0 mb-5">
+				{{ site.data.translations['styleguideHeadline'][page.lang] }}
+				</p>
+			</div>
+		</div>
+	</div>
 </header>
-
 <article class="p-5 bg-white">
   <div class="container">
     <div class="row mb-5"> 
@@ -142,7 +155,6 @@ lang: es
         </nav>
         <p>
           <a href="index.html" class="nav-link-secondary">{{ site.data.translations['styleguideNavItemBackIndex'][page.lang] }}</a>
-          <img src="assets/images/external-link-2.svg" class="mt-1 ml-1"/>
         </p>
       </div>
     </div>

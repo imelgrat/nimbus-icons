@@ -63,7 +63,7 @@ lang: en
 		<div class="col-12 col-md-4 m-0"> 
 			<h2 class="mb-1">{{ site.data.translations['infoBannersTitle3'][page.lang] }}</h2>
 			<p class="mt-0 mb-2">{{ site.data.translations['infoBannersDescription3'][page.lang] }}</p>
-			<a class="btn-link font-s" href="www.tiendanube.com">{{ site.data.translations['infoBannersLink3'][page.lang] }}</a> 
+			<a class="btn-link font-s" href="styleguide.html">{{ site.data.translations['infoBannersLink3'][page.lang] }}</a> 
 			<img src="assets/images/external-link-2.svg" class="mt-1 ml-1 svg-icon-primary"/>
 		</div>
 	</div>
