@@ -1,1 +1,1 @@
-<svg class="{{ include.class }}" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.813 1.05L7.269.463 4 3.456.731.463l-.543.587L3.405 4 .187 6.95l.544.588L4 4.544l3.269 2.994.544-.588L4.593 4l3.22-2.95z" fill="#111424"/></svg>
+<svg class="{{ include.class }}" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M14.1 3.28l-.87-.94L8 7.13 2.77 2.34l-.87.94L7.05 8 1.9 12.72l.87.94L8 8.87l5.23 4.79.87-.94L8.95 8l5.15-4.72z"></path></svg>
