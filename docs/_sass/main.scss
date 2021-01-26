@@ -309,7 +309,6 @@ p {
     transition: $motion-fast ease;
     border: 1px solid transparent;
     border-radius: $spacing-xx-small;
-    &:hover,
     &.active {
       border-color: rgba($color-primary, .2);
     }
@@ -324,6 +323,12 @@ p {
     display: block;
     width: 100%;
     height: 120px;
+  }
+}
+
+@media (min-width: 768px) {
+  .icon-gallery-item:hover {
+    border-color: rgba($color-primary, .2);
   }
 }
 

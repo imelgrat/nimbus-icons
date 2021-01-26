@@ -97,11 +97,13 @@ p { font-size: 16px; line-height: 28px; color: white; }
 
 .icon-gallery-item { cursor: pointer; margin-left: 4px; margin-top: 24px; margin-right: 4px; padding: 24px; transition: 150ms ease; border: 1px solid transparent; border-radius: 4px; }
 
-.icon-gallery-item:hover, .icon-gallery-item.active { border-color: rgba(152, 236, 255, 0.2); }
+.icon-gallery-item.active { border-color: rgba(152, 236, 255, 0.2); }
 
 .icon-gallery-svg svg { fill: #98ECFF; transition: 150ms ease; width: 32px; height: 32px; }
 
 .icon-gallery-end { display: block; width: 100%; height: 120px; }
+
+@media (min-width: 768px) { .icon-gallery-item:hover { border-color: rgba(152, 236, 255, 0.2); } }
 
 /* Modal */
 .modal { position: fixed; bottom: 0; left: 15px; z-index: 999; background: #ecebec; border-radius: 0; padding: 12px; width: 100%; height: 95px; color: #111424 !important; }
