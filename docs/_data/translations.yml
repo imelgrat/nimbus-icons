@@ -108,6 +108,11 @@ footerLegalLink3:
   es: "Política de calidad."
   mx: "Política de calidad."
   en: "Quality policy."
+iconGalleryMore:
+  pt: "Ver mais"
+  es: "Ver más"
+  mx: "Ver más"
+  en: "View more"
 styleguideTitle:
   pt: "Styleguide"
   es: "Styleguide"

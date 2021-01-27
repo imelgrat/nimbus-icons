@@ -294,13 +294,12 @@ p {
 .icon-gallery {
   margin-top: $spacing-large;
   &-wrapper {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: left;
     margin: 0 0 0 -$spacing-medium;
     padding: 0;
   }
   &-item {
+    display: inline-block;
     cursor: pointer;
     margin-left: $spacing-xx-small;
     margin-top: $spacing-medium;
@@ -312,6 +311,22 @@ p {
     &.active {
       border-color: rgba($color-primary, .2);
     }
+  }
+  &-mask {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: 474px;
+    padding-bottom: $spacing-xx-large;
+  }
+  &-extend {
+    position: absolute;
+    bottom: $spacing-x-small;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: $color-primary;
+    cursor: pointer;
   }
   &-svg svg {
     fill: $color-primary;
