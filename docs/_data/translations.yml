@@ -34,10 +34,10 @@ infoBannersLink1:
   mx: "Entérate más aquí"
   en: "Learn more about it here"
 infoBannersTitle2:
-  pt: "Eles são open-source"
-  es: "Son open-source"
-  mx: "Son open-source"
-  en: "They’re open-source"
+  pt: "Open-source"
+  es: "Open-source"
+  mx: "Open-source"
+  en: "Open-source"
 infoBannersDescription2:
   pt: "Adicione seus ícones ou nos solicite o que você precisa e nós o projetamos. Ou você também pode desenhá-los e enviar uma proposta em nosso repositório!"
   es: "Sumá tus íconos o pedinos el que estás necesitando y lo diseñamos. ¡O también podés diseñarlos vos y enviar una propuesta!"

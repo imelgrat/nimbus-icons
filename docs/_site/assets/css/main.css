@@ -95,19 +95,19 @@ p { font-size: 16px; line-height: 28px; color: white; }
 
 .icon-gallery-wrapper { justify-content: left; margin: 0 0 -24px; padding: 0; }
 
-.icon-gallery-item { display: inline-block; cursor: pointer; margin-left: 4px; margin-top: 24px; margin-right: 4px; padding: 24px; transition: 150ms ease; border: 1px solid transparent; border-radius: 4px; }
+.icon-gallery-item { display: inline-block; cursor: pointer; margin-left: 4px; margin-top: 24px; margin-right: 4px; padding: 16px; transition: 150ms ease; border: 1px solid transparent; border-radius: 4px; }
 
 .icon-gallery-item.active { border-color: rgba(152, 236, 255, 0.2); }
 
-.icon-gallery-mask { position: relative; display: block; overflow: hidden; height: 474px; padding-bottom: 48px; }
+.icon-gallery-mask { position: relative; display: block; overflow: hidden; height: 508px; padding-bottom: 48px; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
 
-.icon-gallery-extend { position: absolute; bottom: 8px; left: 0; width: 100%; text-align: center; color: #98ECFF; cursor: pointer; }
+.icon-gallery-extend { position: absolute; bottom: 0; left: 0; width: 100%; padding: 15px; text-align: center; background: #111424; background: linear-gradient(0deg, #111424 0%, #111424 20%, rgba(17, 20, 36, 0) 100%); color: #98ECFF; cursor: pointer; }
 
 .icon-gallery-svg svg { fill: #98ECFF; transition: 150ms ease; width: 32px; height: 32px; }
 
-.icon-gallery-end { display: block; width: 100%; height: 120px; }
+.icon-gallery-end { display: block; width: 100%; height: 20px; }
 
-@media (min-width: 768px) { .icon-gallery-item:hover { border-color: rgba(152, 236, 255, 0.2); } }
+@media (min-width: 768px) { .icon-gallery-item { padding: 24px; } .icon-gallery-item:hover { border-color: rgba(152, 236, 255, 0.2); } }
 
 /* Modal */
 .modal { position: fixed; bottom: 0; left: 15px; z-index: 999; background: #ecebec; border-radius: 0; padding: 12px; width: 100%; height: 95px; color: #111424 !important; }
