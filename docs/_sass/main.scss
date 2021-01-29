@@ -218,6 +218,17 @@ p {
 
 /* Styleguide grid content */
 
+.styleguide-title {
+  font-size: 60px;
+  color: $color-primary;
+}
+
+@media (min-width: 768px) {
+	.styleguide-title {
+  		font-size: 112px;
+	}
+}
+
 .grid-area {
   padding: 40px;
 }
@@ -225,20 +236,27 @@ p {
 .grid-gx {
   margin-left: 15px;
   margin-right: 15px;
+  float: both;
 }
 
 .grid-gy {
   margin-top: 15px;
   margin-bottom: 15px;
+  float: both;
 }
 
 .grid-image {
   max-width: 100%;
   height: auto;
+  align-self: center;
 }
 
 .grid-subtitle {
   color: $color-grey-60;
+}
+
+.grid-pb {
+  margin-bottom: -56px !important;
 }
 
 /* SVG Icons */
