@@ -35,7 +35,7 @@ lang: en
 				{% for icon in site.data.icons %}
 				    <div data-name="{{ icon.name }}" data-url="icons/{{ icon.name }}.svg" class="js-icon icon-gallery-item">
 				    	<span class="icon-gallery-svg">
-				    		{% include icons/{{ icon.name }}.svg %}
+				    		{% include_relative icons/{{ icon.name }}.svg %}
 				    	</span>
 				    	{% include modal-download-icon.html %}
 				    </div>
