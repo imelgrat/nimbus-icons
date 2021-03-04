@@ -6,7 +6,8 @@ lang: es
 
 <div class="container"> 
 	<div class="row mt-4"> 
-		<div class="col col-md-10"> 
+		<div class="col col-md-10">
+					{% include languages.html %} 
 			{% include images/nimbus-logo-white.svg alt="Nimbus logo" class="logo" %}
 			<div class="hero justify-content-left"> 
 				<h1 class="hero-title mb-0">
