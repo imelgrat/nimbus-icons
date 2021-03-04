@@ -65,15 +65,21 @@ p { font-size: 16px; line-height: 28px; color: white; }
 @media (min-width: 576px) { .hero-title { font-size: 112px; } }
 
 /* Styleguide grid content */
+.styleguide-title { font-size: 60px; color: #98ECFF; }
+
+@media (min-width: 768px) { .styleguide-title { font-size: 112px; } }
+
 .grid-area { padding: 40px; }
 
-.grid-gx { margin-left: 15px; margin-right: 15px; }
+.grid-gx { margin-left: 15px; margin-right: 15px; float: both; }
 
-.grid-gy { margin-top: 15px; margin-bottom: 15px; }
+.grid-gy { margin-top: 15px; margin-bottom: 15px; float: both; }
 
-.grid-image { max-width: 100%; height: auto; }
+.grid-image { max-width: 100%; height: auto; align-self: center; }
 
 .grid-subtitle { color: #918a8d; }
+
+.grid-pb { margin-bottom: -56px !important; }
 
 /* SVG Icons */
 .svg-icon-primary { fill: #98ECFF; height: 16px; width: 16px; margin-right: 8px; }
