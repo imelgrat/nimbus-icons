@@ -1,3 +1,8 @@
+language: 
+  pt: "PT"
+  es: "ES"
+  mx: "MX"
+  en: "EN"
 title: 
   pt: "Nimbus <span class='text-primary text-outline'>icons.</span>"
   es: "Nimbus <span class='text-primary text-outline'>icons.</span>"
