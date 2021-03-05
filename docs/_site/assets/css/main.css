@@ -47,6 +47,8 @@ p { font-size: 16px; line-height: 28px; color: white; }
 
 .text-outline { color: transparent; -webkit-text-stroke-width: 2px; }
 
+.text-uppercase { text-transform: uppercase; }
+
 /* Buttons */
 .btn { border-radius: 8px; padding: 10px; }
 

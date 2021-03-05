@@ -1,20 +1,20 @@
 <div class="dropdown">
-	<a id="dropdown" class="btn text-primary">{{ site.data.translations['language'][page.lang] }} <img src="{% if site.data.translations['language'][page.lang] != 'EN' %}../{% endif %}assets/images/chevron-down.svg" alt="" class="mt-1 ml-1 svg-icon-primary"/></a>
+	<a id="dropdown" class="btn text-primary text-uppercase">{{ page.lang }} <img src="{% if page.lang != 'en' %}../{% endif %}assets/images/chevron-down.svg" alt="" class="mt-1 ml-1 svg-icon-primary"/></a>
 	<div class="dropdown-content">
 
-		{% assign en_home_url = 'http://127.0.0.1:4000/nimbus-icons/' %}
-		{% assign es_home_url = 'http://127.0.0.1:4000/nimbus-icons/es/' %}
-		{% assign pt_home_url = 'http://127.0.0.1:4000/nimbus-icons/pt/' %}
+		{% assign main_url = 'http://127.0.0.1:4000/nimbus-icons/' %}
+		{% assign es_url = main_url | append: "es/" %}
+		{% assign pt_url = main_url | append: "pt/" %}
 
-		{% if site.data.translations['language'][page.lang] == 'ES' %}
-			<a href="{{ en_home_url }}">EN</a>
-			<a href="{{ pt_home_url }}">PT</a>
-		{% elsif site.data.translations['language'][page.lang] == 'PT' %}
-			<a href="{{ en_home_url }}">EN</a>
-			<a href="{{ es_home_url }}">ES</a>
+		{% if page.lang == 'es' %}
+			<a href="{{ main_url }}">EN</a>
+			<a href="{{ pt_url }}">PT</a>
+		{% elsif page.lang == 'pt' %}
+			<a href="{{ main_url }}">EN</a>
+			<a href="{{ es_url }}">ES</a>
 		{% else %}
-			<a href="{{ es_home_url }}">ES</a>
-			<a href="{{ pt_home_url }}">PT</a>
+			<a href="{{ es_url }}">ES</a>
+			<a href="{{ pt_url }}">PT</a>
 		{% endif %}
 	</div>
 </div>
