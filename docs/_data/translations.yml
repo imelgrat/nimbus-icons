@@ -122,7 +122,7 @@ styleguideHeadline:
   pt: "Se você quer conhecer os guias para desenhar novos ícones e contribuir para Nimbus Icons, este é o lugar!"
   es: "Si querés conocer las guías para diseñar nuevos iconos y contribuir para Nimbus Icons, ¡este es el lugar!"
   mx: "Si querés conocer las guías para diseñar nuevos iconos y contribuir para Nimbus Icons, ¡este es el lugar!"
-  en: "If you want to know the guides for designing new icons and contributing to Nimbus Icons, this is the place!"
+  en: "If you want to know the guides for designing new icons and contributing to Nimbus Icons, this is the place! Download the templates to create your own icons down below."
 styleguideGridTitle:
   pt: "Grid"
   es: "Grilla"
@@ -229,10 +229,10 @@ styleguideContributionTitle:
   mx: "Colaboración"
   en: "Contribution"
 styleguideContributionCont:
-  pt: "Você pode solicitar um novo ícone <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/issues/new?assignees=&labels=&template=icon-request.md&title=%5BIcon+request%5D'>aqui</a>. Ou você pode fazer upload de um novo ícone, seguindo nosso <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/blob/develop/.github/CONTRIBUTING.md'>guia de contribuição.</a>"
-  es: "Podés solicitar un ícono nuevo desde <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/issues/new?assignees=&labels=&template=icon-request.md&title=%5BIcon+request%5D'>acá</a>. O podés subir uno nuevo siguiendo nuestra <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/blob/develop/.github/CONTRIBUTING.md'>guía de contribución.</a>"
-  mx: "Podés solicitar un ícono nuevo desde <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/issues/new?assignees=&labels=&template=icon-request.md&title=%5BIcon+request%5D'>acá</a>. O podés subir uno nuevo siguiendo nuestra <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/blob/develop/.github/CONTRIBUTING.md'>guía de contribución.</a>"
-  en: "You can order a new icon <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/issues/new?assignees=&labels=&template=icon-request.md&title=%5BIcon+request%5D'>here</a>. Or you can upload a new icon, following our <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/blob/develop/.github/CONTRIBUTING.md'>contribution guide</a>."
+  pt: "Você pode pedir um novo ícone <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/issues/new?assignees=&labels=&template=icon-request.md&title=%5BIcon+request%5D'>aqui</a>, ou carregue o seu próprio seguindo nosso<a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/blob/develop/.github/CONTRIBUTING.md'>guia de contribuição!</a> Para começar, baixe nosso modelo em<a class='btn-link-secondary' href='https://www.figma.com/file/EhmeGA5hy0S7H07hrwHC7G/?node-id=410%3A32'>Figma</a> ou<a class='btn-link-secondary' href='https://drive.google.com/drive/folders/1wzDVU8d-RpAKWQ5RCA8yTuC78PcE0uhQ'>Illustrator</a>."
+  es: "¡Podés solicitar un ícono nuevo desde <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/issues/new?assignees=&labels=&template=icon-request.md&title=%5BIcon+request%5D'>acá</a> o podés subir uno propio siguiendo nuestra<a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/blob/develop/.github/CONTRIBUTING.md'>guía de contribución!</a> Para empezar, descargá nuestra plantilla desde<a class='btn-link-secondary' href='https://www.figma.com/file/EhmeGA5hy0S7H07hrwHC7G/?node-id=410%3A32'>Figma</a> o<a class='btn-link-secondary' href='https://drive.google.com/drive/folders/1wzDVU8d-RpAKWQ5RCA8yTuC78PcE0uhQ'>Illustrator</a>."
+  mx: "¡Puedes solicitar un ícono nuevo desde <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/issues/new?assignees=&labels=&template=icon-request.md&title=%5BIcon+request%5D'>acá</a>. O puedes subir uno propio siguiendo nuestra<a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/blob/develop/.github/CONTRIBUTING.md'>guía de contribución!</a> Para empezar, descarga nuestra plantilla desde<a class='btn-link-secondary' href='https://www.figma.com/file/EhmeGA5hy0S7H07hrwHC7G/?node-id=410%3A32'>Figma</a> o<a class='btn-link-secondary' href='https://drive.google.com/drive/folders/1wzDVU8d-RpAKWQ5RCA8yTuC78PcE0uhQ'>Illustrator</a>."
+  en: "You can ask for a new icon <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/issues/new?assignees=&labels=&template=icon-request.md&title=%5BIcon+request%5D'>here</a>, or upload your own following our<a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/blob/develop/.github/CONTRIBUTING.md'>contribution guide!</a> Download our template on<a class='btn-link-secondary' href='https://www.figma.com/file/EhmeGA5hy0S7H07hrwHC7G/?node-id=410%3A32'>Figma</a> or<a class='btn-link-secondary' href='https://drive.google.com/drive/folders/1wzDVU8d-RpAKWQ5RCA8yTuC78PcE0uhQ'>Illustrator</a> and get started."
 styleguideNavTitle:
   pt: "Tópicos desta página"
   es: "En esta página"
@@ -278,6 +278,11 @@ styleguideNavItemContribution:
   es: "Colaboración"
   mx: "Colaboración"
   en: "Contribution"
+styleguideNavItemTemplates:
+  pt: "Templates"
+  es: "Plantillas"
+  mx: "Plantillas"
+  en: "Templates"
 styleguideNavItemBackIndex:
   pt: "Voltar para Nimbus Icons"
   es: "Volver a Nimbus Icons"

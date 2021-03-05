@@ -146,7 +146,14 @@ lang: en
           <a class="nav-link" href="#names">{{ site.data.translations['styleguideNavItemNames'][page.lang] }}</a>
           <a class="nav-link" href="#contribution">{{ site.data.translations['styleguideNavItemContribution'][page.lang] }}</a> 
         </nav>
-        <p>
+        <div>
+          <strong class="d-block mb-1 mt-4">{{ site.data.translations['styleguideNavItemTemplates'][page.lang] }}</strong>
+          <div class="mb-1">
+            <a href="https://www.figma.com/file/EhmeGA5hy0S7H07hrwHC7G/?node-id=410%3A32" class="nav-link-secondary mb-1">Figma</a>
+          </div>
+          <a href="https://www.figma.com/file/EhmeGA5hy0S7H07hrwHC7G/?node-id=410%3A32" class="nav-link-secondary">Illustrator</a>
+        </div>
+        <p class="mt-4">
           <a href="index.html" class="nav-link-secondary">{{ site.data.translations['styleguideNavItemBackIndex'][page.lang] }}</a>
         </p>
       </div>
