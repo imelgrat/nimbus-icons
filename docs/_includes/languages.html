@@ -3,8 +3,9 @@
 	<div class="dropdown-content scale-up-ver-top">
 		{% assign main_url = 'http://127.0.0.1:4000/nimbus-icons/' %}
 		{% if styleguide %}
-			{% assign es_url = main_url | append: "es/styleguide.html" %}
-			{% assign pt_url = main_url | append: "pt/styleguide.html" %}
+			{% assign main_url = 'http://127.0.0.1:4000/nimbus-icons/styleguide.html' %}
+			{% assign es_url = main_url | remove: "styleguide.html" | append: "es/styleguide.html" %}
+			{% assign pt_url = main_url | remove: "styleguide.html" | append: "pt/styleguide.html" %}
 		{% else %}
 			{% assign es_url = main_url | append: "es/" %}
 			{% assign pt_url = main_url | append: "pt/" %}
