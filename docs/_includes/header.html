@@ -1,7 +1,18 @@
 <div class="row mt-4"> 
 	<div class="col col-md-10">
 		{% include languages.html %}
-		{% include images/nimbus-logo-white.svg alt="Nimbus logo" class="logo" %}
+
+		{% assign main_url = 'http://127.0.0.1:4000/nimbus-icons/' %}
+
+		{% if page.lang == 'es' %}
+			{% assign main_url = main_url | append: "es/" %}
+		{% elsif page.lang == 'pt' %}
+			{% assign main_url = main_url | append: "pt/" %}
+		{% endif %}
+
+		<a href="{{ main_url }}">
+			{% include images/nimbus-logo-white.svg alt="Nimbus logo" class="logo" %}
+		</a>
 		<div class="hero justify-content-left"> 
 			<h1 class="{% if styleguide %}styleguide{% else %}hero{% endif %}-title mb-0">
 				{% if styleguide %}
