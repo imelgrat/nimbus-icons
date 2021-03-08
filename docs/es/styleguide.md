@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Nimbus icons"
-lang: en
+lang: es
 ---
 
 <header class="container">

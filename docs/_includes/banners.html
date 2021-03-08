@@ -1,11 +1,5 @@
 {% assign style_guide_url = 'styleguide.html' %}
 
-{% if page.lang == 'es' %}
-	{% assign style_guide_url = 'es/styleguide.html' %}
-{% elsif page.lang == 'pt' %}
-	{% assign style_guide_url = 'pt/styleguide.html' %}
-{% endif %}
-
 <div class="row my-5 align-items-top"> 
 	<div class="col-12 col-md-4 m-0"> 
 		<h2 class="mb-1">{{ site.data.translations['infoBannersTitle1'][page.lang] }}</h2>
