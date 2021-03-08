@@ -5,24 +5,7 @@ lang: es
 ---
 
 <div class="container"> 
-	<div class="row mt-4"> 
-		<div class="col col-md-10">
-			{% include languages.html %}
-			{% include images/nimbus-logo-white.svg alt="Nimbus logo" class="logo" %}
-			<div class="hero justify-content-left"> 
-				<h1 class="hero-title mb-0">
-				{{ site.data.translations['title'][page.lang] }}
-				</h1>
-				<p class="mt-0 mb-5">
-				{{ site.data.translations['heroDescription'][page.lang] }}
-				</p>
-				<span>
-					<a class="btn btn-primary mr-3" href="www.tiendanube.com">{{ site.data.translations['primaryButton'][page.lang] }} </a>
-					<a class="btn btn-link" href="www.tiendanube.com"> {{ site.data.translations['secondaryButton'][page.lang] }} </a>
-				</span> 
-			</div>
-		</div>
-	</div>
+	{% include header.html %}
 	<div class="row mt-5">
 		<div class="col col-md-10 icon-gallery-wrapper">
 			{% for icon in site.data.icons %}
