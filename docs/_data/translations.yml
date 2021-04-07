@@ -19,62 +19,62 @@ secondaryButton:
   mx: "Contribuir"
   en: "Contribute"
 infoBannersTitle1:
-  pt: "Focado na capacitação"
-  es: "Enfocados en potenciar"
-  mx: "Enfocados en potenciar"
-  en: "Boosting projects"
-infoBannersDescription1:
-  pt: "Queremos ícones que respondam às necessidades de quem trabalha na concepção, programação ou criação de um produto para promover marcas e negócios na região."
-  es: "Queremos íconos que respondan a las necesidades de quienes trabajan en diseñar, programar o crear un producto para potenciar marcas y negocios de la región."
-  mx: "Queremos íconos que respondan a las necesidades de quienes trabajan en diseñar, programar o crear un producto para potenciar marcas y negocios de la región."
-  en: "We want icons that respond to the needs of those who work on designing or programming a product that boost brands and businesses in the region."
-infoBannersLink1:
-  pt: "Saiba mais aqui"
-  es: "Enterate más acá"
-  mx: "Entérate más aquí"
-  en: "Learn more about it here"
-infoBannersTitle2:
-  pt: "Open-source"
-  es: "Open-source"
-  mx: "Open-source"
-  en: "Open-source"
-infoBannersDescription2:
-  pt: "Adicione seus ícones ou nos solicite o que você precisa e nós o projetamos. Ou você também pode desenhá-los e enviar uma proposta em nosso repositório!"
-  es: "Sumá tus íconos o pedinos el que estás necesitando y lo diseñamos. ¡O también podés diseñarlos vos y enviar una propuesta!"
-  mx: "Suma tus íconos o pídenos el que estés necesitando y lo diseñamos. ¡O también puedes diseñarlos y enviar una propuesta!"
-  en: "Add your icons or ask us for the ones that you need, and we’ll add it to our repository. You can also design them yourself and submit them to our repository!"
-infoBannersLink2:
-  pt: "Junte-se ao nosso repositório no Github"
-  es: "Sumate a nuestro repo en Github"
-  mx: "Súmate a nuestro repo en Github"
-  en: "Join our repository on Github"
-infoBannersTitle3:
   pt: "Nuvem-perfect"
   es: "Nube-perfect"
   mx: "Nube-perfect"
   en: "Nube-perfect"
-infoBannersDescription3:
-  pt: "Nossos ícones são baseados na morfologia do símbolo da marca e suas proporções."
-  es: "Nuestros íconos toman como base la morfología del símbolo de la marca y sus proporciones."
-  mx: "Nuestros íconos toman como base la morfología del símbolo de la marca y sus proporciones."
-  en: "Our icons take as their base the morphology of our brand’s logo and its proportions."
-infoBannersLink3:
-  pt: "Confira nosso guia de estilo"
-  es: "Mirá nuestra guía de estilo"
-  mx: "Mira nuestra guía de estilo"
+infoBannersDescription1:
+  pt: "A morfologia do logotipo de nossa marca dá a base para nossos ícones e suas proporções. É assim que eles são feitos."
+  es: "La base y las proporciones de nuestros íconos las dan la morfología de nuestro logo. Así los construimos."
+  mx: "La base y las proporciones de nuestros íconos las dan la morfología de nuestro logo. Así los construimos."
+  en: "The morphology of our brand’s logo gives the base for our icons and its proportions. This is how they are done."
+infoBannersLink1:
+  pt: "Dê uma olhada em nosso guia de estilo"
+  es: "Mirá nuestra styleguide"
+  mx: "Mira nuestra styleguide"
   en: "Take a look at our styleguide"
+infoBannersTitle2:
+  pt: "Contribuindo"
+  es: "Colaborá"
+  mx: "Colabora"
+  en: "Contributing"
+infoBannersDescription2:
+  pt: "Faça parte da nossa comunidade de colaboradores criando novos ícones que agregam valor a milhares de novas marcas e negócios. Baixe nosso modelo e comece!"
+  es: "Sé parte de nuestra comunidad de colaboradores creando nuevos íconos que brinden valor a miles de nuevas marcas y negocios. ¡Descargate nuestra plantilla y empezá!"
+  mx: "Sé parte de nuestra comunidad de colaboradores creando nuevos íconos que brinden valor a miles de nuevas marcas y negocios. ¡Descárgate nuestra plantilla y empieza!"
+  en: "Be a part of our community of contributors by creating new icons that provide value to thousands of new brands and businesses. Download our template and get started."
+infoBannersLink2:
+  pt: "Baixe nosso template no Figma"
+  es: "Descargá la plantilla en Figma"
+  mx: "Descarga la plantilla en Figma"
+  en: "Download the template on Figma"
+infoBannersTitle3:
+  pt: "Open-source"
+  es: "Open-source"
+  mx: "Open-source"
+  en: "Open-source"
+infoBannersDescription3:
+  pt: "Crie novos ícones e adicione-os ao nosso repositório no Github! Você também pode nos pedir aqueles de que precisa, e nós os adicionaremos para que todos possam usar."
+  es: "Diseñá nuevos íconos y sumalos a nuestro repo de Github. También podés pedirnos los que necesites y los sumaremos para que queden disponibles."
+  mx: "Diseña nuevos íconos y súmalos a nuestro repo de Github. También puedes pedirnos los que necesites y los sumaremos para que queden disponibles."
+  en: "Design new icons and add them to our repository on Github! You can also ask us for the ones that you need, and we’ll add them for everyone to use."
+infoBannersLink3:
+  pt: "Junte-se ao nosso repositório no Github"
+  es: "Sumate a nuestro repo de Github"
+  mx: "Súmate a nuestro repo de Github"
+  en: "Join our repository on Github"
 footerLink1:
-  pt: "Nuvemshop Design"
+  pt: "Nuvemshop Blog"
   es: "Tiendanube Design"
   mx: "Tiendanube Design"
-  en: "Tiendanube Design"
+  en: "Tiendanube Blog"
 footerLink2:
   pt: "Nuvemshop Engineering"
   es: "Tiendanube Engineering"
   mx: "Tiendanube Engineering"
   en: "Tiendanube Engineering"
 footerLink3:
-  pt: "Nuvemshop Sócios"
+  pt: "Nuvemshop Parceiros"
   es: "Tiendanube Socios"
   mx: "Tiendanube Socios"
   en: "Tiendanube Partners"
@@ -122,7 +122,7 @@ styleguideHeadline:
   pt: "Se você quer conhecer os guias para desenhar novos ícones e contribuir para Nimbus Icons, este é o lugar!"
   es: "Si querés conocer las guías para diseñar nuevos iconos y contribuir para Nimbus Icons, ¡este es el lugar!"
   mx: "Si querés conocer las guías para diseñar nuevos iconos y contribuir para Nimbus Icons, ¡este es el lugar!"
-  en: "If you want to know the guides for designing new icons and contributing to Nimbus Icons, this is the place!"
+  en: "If you want to know the guides for designing new icons and contributing to Nimbus Icons, this is the place! Download the templates to create your own icons down below."
 styleguideGridTitle:
   pt: "Grid"
   es: "Grilla"
@@ -229,10 +229,10 @@ styleguideContributionTitle:
   mx: "Colaboración"
   en: "Contribution"
 styleguideContributionCont:
-  pt: "Você pode solicitar um novo ícone <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/issues/new?assignees=&labels=&template=icon-request.md&title=%5BIcon+request%5D'>aqui</a>. Ou você pode fazer upload de um novo ícone, seguindo nosso <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/blob/develop/.github/CONTRIBUTING.md'>guia de contribuição.</a>"
-  es: "Podés solicitar un ícono nuevo desde <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/issues/new?assignees=&labels=&template=icon-request.md&title=%5BIcon+request%5D'>acá</a>. O podés subir uno nuevo siguiendo nuestra <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/blob/develop/.github/CONTRIBUTING.md'>guía de contribución.</a>"
-  mx: "Podés solicitar un ícono nuevo desde <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/issues/new?assignees=&labels=&template=icon-request.md&title=%5BIcon+request%5D'>acá</a>. O podés subir uno nuevo siguiendo nuestra <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/blob/develop/.github/CONTRIBUTING.md'>guía de contribución.</a>"
-  en: "You can order a new icon <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/issues/new?assignees=&labels=&template=icon-request.md&title=%5BIcon+request%5D'>here</a>. Or you can upload a new icon, following our <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/blob/develop/.github/CONTRIBUTING.md'>contribution guide</a>."
+  pt: "Você pode pedir um novo ícone <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/issues/new?assignees=&labels=&template=icon-request.md&title=%5BIcon+request%5D'>aqui</a>, ou carregue o seu próprio seguindo nosso<a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/blob/develop/.github/CONTRIBUTING.md'>guia de contribuição!</a> Para começar, baixe nosso modelo em<a class='btn-link-secondary' href='https://www.figma.com/file/EhmeGA5hy0S7H07hrwHC7G/?node-id=410%3A32'>Figma</a> ou<a class='btn-link-secondary' href='https://drive.google.com/drive/folders/1wzDVU8d-RpAKWQ5RCA8yTuC78PcE0uhQ'>Illustrator</a>."
+  es: "¡Podés solicitar un ícono nuevo desde <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/issues/new?assignees=&labels=&template=icon-request.md&title=%5BIcon+request%5D'>acá</a> o podés subir uno propio siguiendo nuestra<a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/blob/develop/.github/CONTRIBUTING.md'>guía de contribución!</a> Para empezar, descargá nuestra plantilla desde<a class='btn-link-secondary' href='https://www.figma.com/file/EhmeGA5hy0S7H07hrwHC7G/?node-id=410%3A32'>Figma</a> o<a class='btn-link-secondary' href='https://drive.google.com/drive/folders/1wzDVU8d-RpAKWQ5RCA8yTuC78PcE0uhQ'>Illustrator</a>."
+  mx: "¡Puedes solicitar un ícono nuevo desde <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/issues/new?assignees=&labels=&template=icon-request.md&title=%5BIcon+request%5D'>acá</a>. O puedes subir uno propio siguiendo nuestra<a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/blob/develop/.github/CONTRIBUTING.md'>guía de contribución!</a> Para empezar, descarga nuestra plantilla desde<a class='btn-link-secondary' href='https://www.figma.com/file/EhmeGA5hy0S7H07hrwHC7G/?node-id=410%3A32'>Figma</a> o<a class='btn-link-secondary' href='https://drive.google.com/drive/folders/1wzDVU8d-RpAKWQ5RCA8yTuC78PcE0uhQ'>Illustrator</a>."
+  en: "You can ask for a new icon <a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/issues/new?assignees=&labels=&template=icon-request.md&title=%5BIcon+request%5D'>here</a>, or upload your own following our<a class='btn-link-secondary' href='https://github.com/TiendaNube/nimbus-icons/blob/develop/.github/CONTRIBUTING.md'>contribution guide!</a> Download our template on<a class='btn-link-secondary' href='https://www.figma.com/file/EhmeGA5hy0S7H07hrwHC7G/?node-id=410%3A32'>Figma</a> or<a class='btn-link-secondary' href='https://drive.google.com/drive/folders/1wzDVU8d-RpAKWQ5RCA8yTuC78PcE0uhQ'>Illustrator</a> and get started."
 styleguideNavTitle:
   pt: "Tópicos desta página"
   es: "En esta página"
@@ -278,6 +278,11 @@ styleguideNavItemContribution:
   es: "Colaboración"
   mx: "Colaboración"
   en: "Contribution"
+styleguideNavItemTemplates:
+  pt: "Templates"
+  es: "Plantillas"
+  mx: "Plantillas"
+  en: "Templates"
 styleguideNavItemBackIndex:
   pt: "Voltar para Nimbus Icons"
   es: "Volver a Nimbus Icons"
