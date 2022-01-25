@@ -1,5 +1,8 @@
-# nimbus-icons
-Nimbus-icons is an Open Source icon system built by Nuvemshop / Tiendanube. It’s an Open Source icon set. 
+<img alt="Nimbus" style="margin-bottom: 30px;" src="https://tiendanube.github.io/design-system-nimbus/static/media/nimbus-logo.ab60bd79.png" height="30" />
+
+# ☁️ Nimbus Icons
+
+Nimbus-icons is an open source icon system built by Nuvemshop / Tiendanube.
 
 ## How to use
 You can download the whole set of icons or just the icons that you need from the nimbus-icons.dev site.
