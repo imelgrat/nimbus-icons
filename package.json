@@ -45,7 +45,7 @@
     "typescript": "3.7.5"
   },
   "dependencies": {
-    "cheerio": "1.0.0-rc.3",
+    "cheerio": "1.0.0-rc.12",
     "globby": "11.0.1",
     "lodash.merge": "4.6.2",
     "path": "0.12.7",
